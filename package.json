@@ -1,0 +1,19 @@
+{
+  "name": "reto-frontend-equipo-5-nodo",
+  "version": "1.0.0",
+  "description": "- Sebástian Ricardo Ochoa Pete.\r - SantiagoLopez López.\r - David Santiago Ocampo Nieto.\r - Katherine Andrea Castaño Aguirre.\r - Juan Carlos Murillo Rodriguez.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anayo129/reto-frontend-equipo-5-nodo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anayo129/reto-frontend-equipo-5-nodo/issues"
+  },
+  "homepage": "https://github.com/anayo129/reto-frontend-equipo-5-nodo#readme"
+}
