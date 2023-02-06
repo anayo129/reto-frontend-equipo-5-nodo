@@ -20,6 +20,9 @@ import { EmocionalComponent } from './home/emocional/emocional.component';
 import { EnergeticoComponent } from './home/energetico/energetico.component';
 import { EspiritualComponent } from './home/espiritual/espiritual.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LandingPageComponent } from './index/landing-page/landing-page.component';
+import { NavbarIndexComponent } from './index/navbar-index/navbar-index.component';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +43,9 @@ import { AppRoutingModule } from './app-routing.module';
     FisicoComponent,
     EmocionalComponent,
     EnergeticoComponent,
-    EspiritualComponent
+    EspiritualComponent,
+    LandingPageComponent,
+    NavbarIndexComponent
   ],
   imports: [
     BrowserModule,
