@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Open+Sans:wght@400;600&display=swap');
 @import "~bootstrap/dist/css/bootstrap.css";
 * {
     box-sizing: border-box;
@@ -7,20 +9,24 @@
 
 html {
     font-size: 16px;
+    font-family: 'Open Sans', 'Poppins',
 }
 :root {
     --white: #FFFFFF;
     --black: #000000;
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
-    --hospital-green: #537322;
+    --principal-green: #537322;
     --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
+    --md: 1rem;
+    --lg: 1.5rem;
+    --title: bold; 
+    --poppins-encabezados: 'Poppins';
+    
 }
   body {
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    
 }
 
 .anchor {

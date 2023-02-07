@@ -1,26 +1,26 @@
 .principal-login {
-    box-shadow: 5px 5px 15px gray;
-    margin: auto;
-    margin-top: 20px;
-    width: 400px;
-    height: 620px;            
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center
+  box-shadow: 5px 5px 15px gray;
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 620px;            
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center
 }
 .form-nav .nav-login {
-    width: 100%;
-    height: 50px;
-    padding: 0 24px;
-    background: var(--hospital-green);
+  width: 100%;
+  height: 50px;
+  padding: 0 24px;
+  background: var(--principal-green);
 }
 .form-nav .nav-login img{
-    width: 80px;
-    height: 60px;
-    margin-left: 400px;
-    margin-bottom: 10px
+  width: 80px;
+  height: 60px;
+  margin-left: 400px;
+  margin-bottom: 10px
 
 }
 
@@ -51,7 +51,7 @@
   flex-direction: column;
 }
 .form a {
-  color: var(--hospital-green);
+  color: var(--principal-green);
   font-size: var(--sm);
   text-align: center;
   text-decoration: none;
@@ -61,90 +61,90 @@
   cursor: pointer;
 }
 .gmail-google {
-        display: flex;
-        align-items: center;
-        background-color: var(--text-input-field);
-        border: 1px solid #D4D4D4;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        margin-top: 30px;
-        color: var(--black);
-        width: 75%;
-        cursor: pointer;
-        font-size: var(--md);
-        height: 50px;
-   }
-   .gmail-facebook {
-        display: flex;
-        align-items: center;
-        background-color: var(--text-input-field);
-        border: 1px solid #D4D4D4;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        color: var(--black);
-        width: 75%;
-        cursor: pointer;
-        font-size: var(--md);
-        height: 50px;
-   }
-   .continue {
-        margin-right: 20px;
-   }
-   #icon-google {
-        display: inline-block;
-        width: 30px;
-        margin-right: 10px;
-        margin-left: 10px;
-        min-height: 30px;
-        background: url('/assets/logos/pngwing.com.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    #icon-facebook {
-        display: inline-block;
-        width: 30px;
-        margin-right: 10px;
-        margin-left: 10px;
-        min-height: 30px;
-        background: url('/assets/logos/facebook.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .line {
-        width: 70%;
-        margin-right: 20px;
-        display: flex;
-        text-align: center;
-        flex-direction: row;
-        text-transform: uppercase;
-        border: none;
-        font-size: 12px;
-        font-weight: 500;
-        padding: 18px;
+  display: flex;
+  align-items: center;
+  background-color: var(--text-input-field);
+  border: 1px solid #D4D4D4;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: var(--black);
+  width: 75%;
+  cursor: pointer;
+  font-size: var(--md);
+  height: 50px;
+}
+.gmail-facebook {
+  display: flex;
+  align-items: center;
+  background-color: var(--text-input-field);
+  border: 1px solid #D4D4D4;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: var(--black);
+  width: 75%;
+  cursor: pointer;
+  font-size: var(--md);
+  height: 50px;
+}
+.continue {
+  margin-right: 20px;
+}
+#icon-google {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  min-height: 30px;
+  background: url('/assets/logos/pngwing.com.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#icon-facebook {
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  min-height: 30px;
+  background: url('/assets/logos/facebook.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.line {
+  width: 70%;
+  margin-right: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 18px;
 
-    }
-    .line span {
-        text-align: center;
-        text-align: center;
-        font-weight: bold;
-        flex: 0.2 0 auto
-    }
-    .line::before {
-        content: "";
-        border-bottom: 1px solid #c2c8d0;
-        flex: 1 0 auto;
-        height: 0.5em;
-        margin: 0;
-    }
-    .line::after {
-        content: "";
-        border-bottom: 1px solid #c2c8d0;
-        flex: 1 0 auto;
-        height: 0.5em;
-        margin: 0;
-    }
+}
+.line span {
+  text-align: center;
+  text-align: center;
+  font-weight: bold;
+  flex: 0.2 0 auto
+}
+.line::before {
+  content: "";
+  border-bottom: 1px solid #c2c8d0;
+  flex: 1 0 auto;
+  height: 0.5em;
+  margin: 0;
+}
+.line::after {
+  content: "";
+  border-bottom: 1px solid #c2c8d0;
+  flex: 1 0 auto;
+  height: 0.5em;
+  margin: 0;
+}
 .label {
   font-size: var(--sm);
   font-weight: bold;
@@ -163,7 +163,7 @@
   margin-bottom: 22px;
 }
 .primary-button {
-  background-color: var(--hospital-green);
+  background-color: var(--principal-green);
   border-radius: 8px;
   border: none;
   color: var(--white);
@@ -176,8 +176,8 @@
 .secondary-button {
   background-color: var(--white);
   border-radius: 8px;
-  border: 1px solid var(--hospital-green);
-  color: var(--hospital-green);
+  border: 1px solid var(--principal-green);
+  color: var(--principal-green);
   width: 100%;
   cursor: pointer;
   font-size: var(--md);

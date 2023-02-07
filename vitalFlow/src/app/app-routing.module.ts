@@ -10,6 +10,7 @@ import { ResenasComponent } from './index/resenas/resenas.component';
 import { LoginComponent } from './login/login.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -36,6 +37,7 @@ const routes: Routes = [
 {
   path: 'formulario',
   component: FormularioComponent,
+  canActivate: [AuthGuard]
 },
 {
   path: 'password',

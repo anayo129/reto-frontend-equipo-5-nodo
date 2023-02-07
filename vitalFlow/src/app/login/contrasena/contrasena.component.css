@@ -2,7 +2,7 @@
     width: 100%;
     height: 50px;
     padding: 0 24px;
-    background: var(--hospital-green);
+    background: var(--principal-green);
 }
 .form-nav .nav-login img{
     width: 80px;
@@ -62,11 +62,11 @@
   color: var(--very-light-pink);
 }
 .resend a {
-  color: var(--hospital-green);
+  color: var(--principal-green);
   text-decoration: none;
 }
 .primary-button {
-  background-color: var(--hospital-green);
+  background-color: var(--principal-green);
   border-radius: 8px;
   border: none;
   color: var(--white);

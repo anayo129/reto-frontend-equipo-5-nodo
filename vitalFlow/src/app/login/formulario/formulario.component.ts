@@ -12,12 +12,12 @@ import { environment } from 'src/environments/environment.development';
 export class FormularioComponent {
   formUsers = new FormGroup({
     username: new FormControl('', [Validators.required]),
-    email:  new FormControl(''),
-    password:  new FormControl('')
+    email:  new FormControl('', [Validators.required]),
+    password:  new FormControl('', [Validators.required])
   });
   errorMessage: string = ''; 
   
-  constructor(private http : HttpClient){}
+  constructor(private http : HttpClient, private router : Router){}
 
   onSubmit(){
 
@@ -28,6 +28,11 @@ export class FormularioComponent {
 
     const data = this.formUsers.value;
     console.log(data);
-    this.http.post<any>(`${environment.apiUrl}/singUp`, data).subscribe();
+    this.http.post<any>(`${environment.apiUrl}/users`, data).subscribe(res=> {
+      this.formUsers.reset();
+      this.router.navigate(['login']);
+    }
+      );
+    
   }
 }

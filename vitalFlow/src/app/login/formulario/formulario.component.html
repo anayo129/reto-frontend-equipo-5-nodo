@@ -25,17 +25,49 @@
         <form class="form" [formGroup]="formUsers" (ngSubmit)="onSubmit()">
 
               
-                <label for="username" class="label">Nombre</label>
+                <label for="username" class="label">Nombre completo</label>
                 <input formControlName="username" type="text" name="pass" id="username" placeholder="Usuaio Eafit"
                 class="input input-name">
+
+                <div *ngIf="formUsers.get('username')?.invalid && 
+                    (formUsers.get('username')?.dirty || formUsers.get('username')?.touched)
+                "
+                class="required"
+                >
+                    <div *ngIf="formUsers.get('username')?.errors?.['required']" class="m-0 p-0">
+                       El título es requerido.
+                    </div>
+                </div>
         
-                <label for="email" class="label">Correo electronico</label>
+                <label for="email" class="label">Correo electrónico</label>
                 <input  formControlName="email" type="text" name="pass" id="email" placeholder="usuario@example.com"
                 class="input input-email">
+
+                
+                <div *ngIf="formUsers.get('email')?.invalid && 
+                    (formUsers.get('email')?.dirty || formUsers.get('email')?.touched)
+                "
+                class="required "
+                >
+                    <div *ngIf="formUsers.get('email')?.errors?.['required']" class="m-0 p-0">
+                       El email es requerido.
+                    </div>
+                </div>
         
                 <label for="password" class="label">Contraseña</label>
                 <input  formControlName="password" type="password" name="pass" id="password" placeholder="*********"
                 class="input input-password">
+
+                
+                <div *ngIf="formUsers.get('password')?.invalid && 
+                    (formUsers.get('password')?.dirty || formUsers.get('password')?.touched)
+                "
+                class="required"
+                >
+                    <div *ngIf="formUsers.get('password')?.errors?.['required']" class="m-0 p-0">
+                       El título es requerido.
+                    </div>
+                </div>
 
                 <button type="submit" class="primary-button login-button"> Crear</button>
 
