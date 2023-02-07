@@ -1,0 +1,10 @@
+/* archivo section1.component.css */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_960_720.jpg);
+    background-size: cover;
+  }
+  

@@ -20,6 +20,14 @@ import { EmocionalComponent } from './home/emocional/emocional.component';
 import { EnergeticoComponent } from './home/energetico/energetico.component';
 import { EspiritualComponent } from './home/espiritual/espiritual.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LandingPageComponent } from './index/landing-page/landing-page.component';
+import { NavbarIndexComponent } from './index/navbar-index/navbar-index.component';
+import { FormularioComponent } from './login/formulario/formulario.component';
+import { ContrasenaComponent } from './login/contrasena/contrasena.component';
+import {HttpClientModule} from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -40,11 +48,17 @@ import { AppRoutingModule } from './app-routing.module';
     FisicoComponent,
     EmocionalComponent,
     EnergeticoComponent,
-    EspiritualComponent
+    EspiritualComponent,
+    LandingPageComponent,
+    NavbarIndexComponent,
+    FormularioComponent,
+    ContrasenaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

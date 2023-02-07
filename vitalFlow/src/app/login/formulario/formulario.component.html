@@ -1,0 +1,46 @@
+<div class="principal-container">
+    <div>
+        <div class="header-log">
+            <img class="eafit-log" src="/assets/logos/vitalflow.png" alt="eafit-log">
+        </div>
+        <h1 class="tittle">Crea tu cuenta</h1>
+        <p>Regístrese en Cincocuerpos para continuar.</p>
+    </div>
+    <button type="submit" class="gmail-google">
+        <span id="icon-google"></span>
+        <span class="continue"> Continuar con Google</span>
+    </button>
+    <button type="submit" class="gmail-facebook">
+        <span id="icon-facebook"></span>
+        <span class="continue"> Continuar con Facebook</span>
+    </button>
+    <div class="line">
+      
+        <span>o</span>
+     
+    </div>
+    <div class="login">
+        <div class="form-container">
+        <p *ngIf="errorMessage" class="text-danger">{{ errorMessage }}</p>
+        <form class="form" [formGroup]="formUsers" (ngSubmit)="onSubmit()">
+
+              
+                <label for="username" class="label">Nombre</label>
+                <input formControlName="username" type="text" name="pass" id="username" placeholder="Usuaio Eafit"
+                class="input input-name">
+        
+                <label for="email" class="label">Correo electronico</label>
+                <input  formControlName="email" type="text" name="pass" id="email" placeholder="usuario@example.com"
+                class="input input-email">
+        
+                <label for="password" class="label">Contraseña</label>
+                <input  formControlName="password" type="password" name="pass" id="password" placeholder="*********"
+                class="input input-password">
+
+                <button type="submit" class="primary-button login-button"> Crear</button>
+
+            
+        </form>
+    </div>
+    </div>
+</div>

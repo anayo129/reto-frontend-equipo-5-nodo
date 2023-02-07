@@ -1,0 +1,23 @@
+<div class="form-nav" *ngIf="showMensageEmail">
+    <nav class="nav-login">
+        <!-- <img src="/assets/logos/vitalflow.png" alt="Eafit-log"> -->
+    </nav>
+<div class="login" >
+<div class="form-container">
+  <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
+
+  <h1 class="title">El email ha sido enviado!</h1>
+  <p class="subtitle">Consulte su bandeja de entrada para obtener instrucciones sobre cómo restablecer la contraseña.</p>
+
+  <div class="email-image">
+    <img src="/assets/logos/gmail-logo-16.png" alt="email">
+  </div>
+
+  <button class="primary-button login-button" (click)="onClickBack()" ><a  class="anchor" routerLink="/login">Ingresar</a></button>
+
+  <p class="resend">
+    <span>¿No recibiste el correo?</span>
+    <a href="/">Enviar</a>
+  </p>
+</div>
+</div>

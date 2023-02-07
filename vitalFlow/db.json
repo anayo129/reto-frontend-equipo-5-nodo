@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "Sebastian Ricardo Ochoa Pete",
+      "email": "sochoa@eafit.edu.co",
+      "password": "sebastian123"
+    },
+    {
+      "username": "Juan Carlos Murillo",
+      "email": "juanca@eafit.edu.co",
+      "password": "Juanca123"
+    },
+    {
+      "username": "Santiago Ocampo",
+      "email": "santiocampo@eafit.edu.co",
+      "password": "Santiocampo123"
+    },
+    {
+      "username": "Katerine",
+      "email": "katerin@eafit.edu.co",
+      "password": "katerina123"
+    },
+    {
+      "username": "Santiago Lopez",
+      "email": "santilopez@eafit.edu.co",
+      "password": "santilopez123"
+    }
+  ],
+  "singUp": [
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

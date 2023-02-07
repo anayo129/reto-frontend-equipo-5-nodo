@@ -1,0 +1,38 @@
+<div  class="form-nav" *ngIf="showLoginn">
+    <nav class="nav-login">
+        <!-- <img src="/assets/logos/vitalflow.png" alt="Eafit-logo"> -->
+    </nav>
+<div class="principal-login"> 
+    <!-- // *ngIf="showLoginn" -->
+    <div class="login">
+        <button type="submit" class="gmail-google">
+            <span id="icon-google"></span>
+            <span class="continue"> Ingresar con Google</span>
+        </button>
+        <button type="submit" class="gmail-facebook">
+            <span id="icon-facebook"></span>
+            <span class="continue"> Ingresar con Facebook</span>
+        </button>
+        <div class="line">
+      
+            <span>o</span>
+         
+        </div>
+        <div class="form-container">        
+          <form action="/" class="form">
+            <label for="email" class="label">Dirección Email</label>
+            <input type="text" id="email" placeholder="eafit@example.cm" class="input input-email">
+    
+            <label for="password" class="label">Contraseña</label>
+            <input type="password" id="password" placeholder="*********" class="input input-password">
+    
+            <input  type="submit" value="Log in" class="primary-button login-button">
+            <a class="password-email" (click)="onLoginClickPassword()" routerLink="/mensage" >Olvide mi contraseña</a>
+          </form>
+          <p>¿Aún no tienes cuenta en Cincocuerpos?</p>
+          <button (click)="onLoginClick()" class="secondary-button signup-button">Registrarse</button>
+        </div>
+    </div>
+</div>    
+</div>   
+<app-formulario *ngIf="showForm"/>
