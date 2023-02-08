@@ -27,6 +27,7 @@ import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -53,7 +54,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LandingPageComponent,
     NavbarIndexComponent,
     FormularioComponent,
-    ContrasenaComponent
+    ContrasenaComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

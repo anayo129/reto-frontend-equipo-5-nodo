@@ -13,6 +13,7 @@ import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
 import { MaterialComponent } from './material/material.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -55,6 +56,10 @@ const routes: Routes = [
   redirectTo: '/index',
   pathMatch: 'full',
   
+},
+{
+  path: '**',
+  component: PageNotFoundComponent,
 }
 
 
