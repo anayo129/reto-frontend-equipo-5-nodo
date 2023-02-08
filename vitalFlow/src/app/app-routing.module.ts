@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
+import { RegistroComponent } from './registro/registro.component';
+import { CursoComponent } from './curso/curso.component';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -26,40 +28,50 @@ const routes: Routes = [
 //   // ] },
 //   { path: '', redirectTo: '/index', pathMatch: 'full' }
 // ];
-{
-  path: 'login',
-  component: LoginComponent,
-},
-{
-  path: 'index',
-  component: IndexComponent,
-},
-{
-  path: 'formulario',
-  component: FormularioComponent,
-  canActivate: [AuthGuard]
-},
-{
-  path: 'password',
-  component: ContrasenaComponent
-},
-{
-  path: '',
-  redirectTo: '/index',
-  pathMatch: 'full',
-  
-}
-
-
+  {
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'index',
+    component: IndexComponent,
+  },
+  {
+    path: 'formulario',
+    component: FormularioComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'password',
+    component: ContrasenaComponent
+  },
+  {
+    path: 'registro',
+    component: RegistroComponent
+  },
+  {
+    path: 'curso',
+    component: CursoComponent
+  },
+  {
+    path: '',
+    redirectTo: '/index',
+    pathMatch: 'full',
+    
+  },
+  // {
+  //   path: '',
+  //   redirectTo: '/registro',
+  //   pathMatch: 'full',
+    
+  // }
 ]
 @NgModule({
   declarations: [],
   imports: [
     [RouterModule.forRoot(routes)],
     CommonModule,
-    // RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
-  // exports: [RouterModule]
 })
 export class AppRoutingModule { }
