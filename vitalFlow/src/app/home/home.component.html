@@ -1,1 +1,30 @@
-<p>home works!</p>
+
+<header class="header">
+    <nav class="header-nav">
+        <div>
+            <img src="/assets/logos/vitalflow.png" alt="logo-vital-flow" class="nav-logo">
+         </div>
+        <div class="nav-items">
+            <div>
+                 <fa-icon class="me-4 bell" [icon]="faBell"></fa-icon> 
+            </div>         
+            <div class="search-container"> 
+                <fa-icon  class="seaarch-container--lup"  [icon]="faMagnifyingGlass"></fa-icon>
+                <input class="border" type="text" placeholder="Buscador" name="Buscador">
+            </div>
+        
+            <ng-container *ngIf=" isUserLoggedIn">
+                <button class="button--log-out"><a class="text-decoration-none log-out" routerLink='' (click)="logout()">Salir</a></button>
+            </ng-container>
+
+        </div>
+     </nav>
+</header>
+<section class="section-one">
+        <img  class="section--component" src="/assets/logos/vitalflow.png" alt="">
+</section>
+
+
+
+
+

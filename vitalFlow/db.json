@@ -11,6 +11,12 @@
       "email": "sochoa@eafit.edu.co",
       "password": "pandora3124541",
       "id": 2
+    },
+    {
+      "username": "Sebastian Ricardo Ochoa Pete ",
+      "email": "srochoap@eafit.edu.co",
+      "password": "123456",
+      "id": 3
     }
   ],
   "singUp": [],

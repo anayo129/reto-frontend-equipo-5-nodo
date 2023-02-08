@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
+import { MaterialComponent } from './material/material.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -28,20 +30,25 @@ const routes: Routes = [
 // ];
 {
   path: 'login',
-  component: LoginComponent,
+  component: LoginComponent
 },
 {
   path: 'index',
-  component: IndexComponent,
+  component: IndexComponent
 },
 {
   path: 'formulario',
   component: FormularioComponent,
-  canActivate: [AuthGuard]
+ 
 },
 {
   path: 'password',
   component: ContrasenaComponent
+},
+{
+  path: 'home',
+  component: HomeComponent,
+  canActivate: [AuthGuard]
 },
 {
   path: '',

@@ -26,7 +26,7 @@
 
               
                 <label for="username" class="label">Nombre completo</label>
-                <input formControlName="username" type="text" name="pass" id="username" placeholder="Usuaio Eafit"
+                <input formControlName="username" type="text" name="pass" id="username" placeholder="Usuaio Vital Flow"
                 class="input input-name">
 
                 <div *ngIf="formUsers.get('username')?.invalid && 
@@ -40,7 +40,7 @@
                 </div>
         
                 <label for="email" class="label">Correo electrónico</label>
-                <input  formControlName="email" type="text" name="pass" id="email" placeholder="usuario@example.com"
+                <input  formControlName="email" type="text" name="pass" id="email" placeholder="vitalflow@example.com"
                 class="input input-email">
 
                 
@@ -65,7 +65,7 @@
                 class="required"
                 >
                     <div *ngIf="formUsers.get('password')?.errors?.['required']" class="m-0 p-0">
-                       El título es requerido.
+                       La contraseña es requerida.
                     </div>
                 </div>
 
