@@ -16,5 +16,129 @@
   "singUp": [],
   "profile": {
     "name": "typicode"
-  }
+  },
+
+ 
+  "cuerpos":[
+    {
+      "id":1,
+      "nombre": "mental",
+      "imagen": "../../assets/images/mental/mental.jpg",
+      "descripcion": "Este cuerpo aborda la mejora de la salud mental y emocional a través del entendimiento y manejo de pensamientos, emociones y comportamientos. Incluye terapias y técnicas que ayudan a las personas a mejorar su bienestar emocional."
+    },
+    {
+      "id":2,
+      "nombre": "fisico",
+      "imagen": "../../assets/images/fisico/fisico.jpg",
+      "descripcion": "Este cuerpo ofrece información y herramientas para mejorar la salud física a través de la alimentación, el ejercicio y el manejo del estrés. Incluye cursos que enseñan cómo llevar un estilo de vida saludable."
+    },
+    {
+      "id":3,
+      "nombre": "energetico",
+      "imagen": "../../assets/images/energetico/energetico.jpg",
+      "descripcion": "Este cuerpo se enfoca en equilibrar y aumentar la energía de las personas mediante técnicas energéticas. Incluye cursos que brindan herramientas para mejorar la calidad de vida a través de la energía."
+    },
+    {
+      "id":4,
+      "nombre": "espiritual",
+      "imagen": "../../assets/images/espiritual/espiritual.jpg",
+      "descripcion": "Este cuerpo busca conectar a las personas con su yo interior y el universo a través de técnicas y herramientas espirituales. Incluye cursos que enseñan cómo fortalecer la conexión con la espiritualidad."
+    },
+    {
+      "id":5,
+      "nombre": "emocional",
+      "imagen": "../../assets/images/emocional/emocional.jpg",
+      "descripcion": "Este cuerpo se centra en ayudar a las personas a entender y manejar sus emociones a través de terapias y técnicas emocionales. Incluye cursos que brindan herramientas para mejorar la salud emocional y el bienestar psicológico."
+    }    
+  ],
+
+  "cursos":[
+    {
+      "id":1,
+      "id_cuerpo": "1",
+      "nombre": "Mindfulness para la salud",
+      "imagen": "../../assets/images/mental/c1-1.jpg",
+      "descripcion": "Este curso ofrece una introducción práctica al mindfulness y su aplicación en el mejoramiento de la salud física y mental. Los estudiantes aprenderán a desarrollar habilidades de concentración y atención plena y a integrar la práctica de mindfulness en su vida diaria."
+    },
+    {
+      "id":2,
+      "id_cuerpo": 1,
+      "nombre": "Terapia cognitivo-conductual",
+      "imagen": "../../assets/images/mental/c2-1.jpg",
+      "descripcion": "Este curso proporciona una comprensión completa de la hipnoterapia y su aplicación en el tratamiento de problemas psicológicos y físicos. Los estudiantes aprenderán técnicas esenciales de inducción y profundización en hipnoterapia y cómo utilizar la hipnoterapia en el tratamiento de trastornos específicos."
+    },
+    {
+      "id":3,
+      "id_cuerpo": 1,
+      "nombre": "Hipnoterapia clínica",
+      "imagen": "../../assets/images/mental/c3-1.jpg",
+      "descripcion": "Este curso enseña a los estudiantes cómo utilizar la meditación como una herramienta efectiva para reducir el estrés y mejorar la calidad de vida. Se abordarán diferentes tipos de meditación y se proporcionarán prácticas guiadas para ayudar a los estudiantes a integrar la meditación en su rutina diaria."
+    }
+  ],
+
+  "material":[
+    {
+      "id": 1,
+      "id_curso": 1,
+      "nombre": "Introducción a la práctica de mindfulness y su importancia para la salud",
+      "imagen": "../../assets/images/mental/c1-11.jpg",
+      "descripcion": "Esta clase proporcionará una comprensión básica de qué es el mindfulness y cómo se puede utilizar para mejorar la salud física y mental. Se discutirán los beneficubrimientos científicos relacionados con la práctica de mindfulness."
+    },
+    {
+      "id": 2,
+      "id_curso": 1,
+      "nombre": "Desarrollo de habilidades de mindfulness: concentración y atención plena",
+      "imagen": "../../assets/images/mental/c1-12.jpg",
+      "descripcion": "En esta clase, los estudiantes aprenderán a desarrollar habilidades de concentración y atención plena a través de la práctica de ejercicios y meditaciones guiadas de mindfulness."
+    },
+    {
+      "id": 3,
+      "id_curso": 1,
+      "nombre": "Integración de mindfulness en la vida diaria: estrategias y desafíos",
+      "imagen": "../../assets/images/mental/c1-13.jpg",
+      "descripcion": "Esta clase explorará cómo integrar la práctica de mindfulness en la vida diaria y abordará desafíos comunes en el camino. Se discutirán estrategias prácticas y recursos adicionales para ayudar a los estudiantes a incorporar mindfulness en su vida cotidiana."
+    },
+    {
+      "id": 4,
+      "id_curso": 2,
+      "nombre": "Introducción a la teoría cognitiva y la terapia cognitivo-conductual",
+      "imagen": "../../assets/images/mental/c2-11.jpg",
+      "descripcion": "Esta clase proporcionará una comprensión básica de la teoría cognitiva y cómo se aplica en la terapia cognitivo-conductual, incluyendo una discusión sobre cómo los pensamientos, emociones y comportamientos están interrelacionados."
+    },
+    {
+      "id": 5,
+      "id_curso": 2,
+      "nombre": "Técnicas de reestructuración cognitiva en terapia cognitivo-conductual",
+      "imagen": "../../assets/images/mental/c2-12.jpg",
+      "descripcion": "Esta clase explorará técnicas específicas de reestructuración cognitiva utilizadas en la terapia cognitivo-conductual, incluyendo la identificación y el reemplazo de pensamientos negativos y distorsionados con pensamientos más realistas y positivos."
+    },
+    {
+      "id": 6,
+      "id_curso": 2,
+      "nombre": "Aplicación de la terapia cognitivo-conductual en trastornos psicológicos comunes",
+      "imagen": "../../assets/images/mental/c2-13.jpg",
+      "descripcion": "Esta clase abordará cómo la terapia cognitivo-conductual se aplica en el tratamiento de trastornos psicológicos comunes, incluyendo ansiedad, depresión, fobia y trastornos alimentarios. Se discutirán técnicas específicas y estrategias de tratamiento."
+    },
+    {
+      "id": 7,
+      "id_curso": 3,
+      "nombre": "Introducción a la hipnoterapia y su aplicación en la atención médica",
+      "imagen": "../../assets/images/mental/c3-11.jpg",
+      "descripcion": "Esta clase proporcionará una comprensión básica de la hipnoterapia y cómo se utiliza en el ámbito médico para tratar una variedad de problemas psicológicos y físicos. Se discutirán los conceptos clave y las teorías subyacentes."
+    },
+    {
+      "id": 8,
+      "id_curso": 3,
+      "nombre": "Desarrollo de habilidades de hipnoterapia: inducción y profundización",
+      "imagen": "../../assets/images/mental/c3-12.jpg",
+      "descripcion": "En esta clase, los estudiantes aprenderán técnicas esenciales de inducción y profundización en hipnoterapia, incluyendo la forma de guiar a una persona hacia un estado hipnótico y cómo utilizar sugestiones hipnóticas para tratar problemas específicos."
+    },
+    {
+      "id": 9,
+      "id_curso": 3,
+      "nombre": "Aplicaciones clínicas de la hipnoterapia: trastornos psicológicos y dolencias físicas",
+      "imagen": "../../assets/images/mental/c3-13.jpg",
+      "descripcion": "Esta clase explorará cómo la hipnoterapia se utiliza en el tratamiento de trastornos psicológicos y dolencias físicas, incluyendo ansiedad, depresión, dolor crónico y problemas de hábitos. Se discutirán estrategias de tratamiento específicas y cómo utilizar la hipnoterapia en conjunto con otros enfoques terapéuticos"
+    }
+  ]
 }
