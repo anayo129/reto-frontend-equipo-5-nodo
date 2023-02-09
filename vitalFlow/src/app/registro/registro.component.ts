@@ -45,7 +45,7 @@ export class RegistroComponent  implements OnInit{
     });
   }
 
-    redirectMaterial(id: any){
+    redirectCurso(id: any){
     this.cookieService.set('id_curso', id);
     this.router.navigate(['/curso']);
   }
