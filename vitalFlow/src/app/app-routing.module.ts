@@ -13,6 +13,7 @@ import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
 import { RegistroComponent } from './registro/registro.component';
 import { CursoComponent } from './curso/curso.component';
+import { PagosComponent } from './pagos/pagos.component';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -54,6 +55,10 @@ const routes: Routes = [
     component: CursoComponent
   },
   {
+    path: 'pagos',
+    component: PagosComponent,
+  },
+  {
     path: '',
     redirectTo: '/index',
     pathMatch: 'full',
@@ -64,7 +69,6 @@ const routes: Routes = [
   //   redirectTo: '/registro',
   //   pathMatch: 'full',
     
-  // },
 ]
 @NgModule({
   declarations: [],
