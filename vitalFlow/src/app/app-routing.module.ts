@@ -64,7 +64,7 @@ const routes: Routes = [
   //   redirectTo: '/registro',
   //   pathMatch: 'full',
     
-  // }
+  // },
 ]
 @NgModule({
   declarations: [],
