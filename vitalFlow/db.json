@@ -158,6 +158,7 @@
   "material":[
     {
       "id": 1,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Introducción a la práctica de mindfulness y su importancia para la salud",
       "imagen": "../../assets/images/mental/c1-11.jpg",
@@ -469,7 +470,7 @@
       "id_curso": 15,
       "nombre": "Sanación a Través del Movimiento",
       "imagen": "../../assets/images/emocional/c3-13.jpg",
-      "descripcion": ""
+      "descripcion": "En esta clase, los estudiantes descubrirán cómo el movimiento puede ayudar en la sanación emocional. Se presentarán ejercicios de yoga, danza y otras formas de movimiento para liberar tensiones y emociones reprimidas. Los estudiantes aprenderán a conectarse con su cuerpo y a utilizar el movimiento como una herramienta para la sanación emocional."
     }
   ]
   
