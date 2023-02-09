@@ -1,8 +1,8 @@
 .quienes_somos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/10/14/16/background-1814372_960_720.jpg);
-    background-size: cover;
-  }
+  background-image: url('src/assets/images/fondos/07.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+}

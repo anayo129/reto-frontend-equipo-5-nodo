@@ -1,5 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" *ngIf="showHeader">
-    <a class="navbar-brand" href="#">VitalFlow</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between" *ngIf="showHeader">
+  <div class="nav-logo">
+  <a class="navbar-brand" href="#"></a>
+</div>
+  <div class="d-flex align-items-center">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,9 +25,10 @@
         </li>
       </ul>
     </div>
-    <button (click)="onLoginClick()" class="btn btn-success" routerLink="/login">
-      <a class="anchor" routerLink="/login"> Inicio de sesión</a>
-    </button>
-  </nav>
-  <app-landing-page *ngIf="showIndex"/>
-  <app-login *ngIf="showLogin"></app-login>
+  </div>
+  <button (click)="onLoginClick()" class="btn btn-success" routerLink="/login">
+    <a class="anchor" routerLink="/login"> Inicio de sesión</a>
+  </button>
+</nav>
+<app-landing-page *ngIf="showIndex"/>
+<app-login *ngIf="showLogin"></app-login>
