@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
+import { PagosComponent } from './pagos/pagos.component';
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -48,7 +49,11 @@ const routes: Routes = [
   redirectTo: '/index',
   pathMatch: 'full',
   
-}
+},
+{
+  path: 'pagos',
+  component: PagosComponent,
+},
 
 
 ]
