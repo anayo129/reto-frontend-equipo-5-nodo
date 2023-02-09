@@ -55,7 +55,7 @@
   "cursos":[
     {
       "id":1,
-      "id_cuerpo": "1",
+      "id_cuerpo": 1,
       "nombre": "Mindfulness para la salud",
       "imagen": "../../assets/images/mental/c1-1.jpg",
       "descripcion": "Este curso ofrece una introducción práctica al mindfulness y su aplicación en el mejoramiento de la salud física y mental. Los estudiantes aprenderán a desarrollar habilidades de concentración y atención plena y a integrar la práctica de mindfulness en su vida diaria."
@@ -166,6 +166,7 @@
     },
     {
       "id": 2,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Desarrollo de habilidades de mindfulness: concentración y atención plena",
       "imagen": "../../assets/images/mental/c1-12.jpg",
@@ -173,6 +174,7 @@
     },
     {
       "id": 3,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Integración de mindfulness en la vida diaria: estrategias y desafíos",
       "imagen": "../../assets/images/mental/c1-13.jpg",
@@ -180,6 +182,7 @@
     },
     {
       "id": 4,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Introducción a la teoría cognitiva y la terapia cognitivo-conductual",
       "imagen": "../../assets/images/mental/c2-11.jpg",
@@ -187,6 +190,7 @@
     },
     {
       "id": 5,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Técnicas de reestructuración cognitiva en terapia cognitivo-conductual",
       "imagen": "../../assets/images/mental/c2-12.jpg",
@@ -194,6 +198,7 @@
     },
     {
       "id": 6,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Aplicación de la terapia cognitivo-conductual en trastornos psicológicos comunes",
       "imagen": "../../assets/images/mental/c2-13.jpg",
@@ -201,6 +206,7 @@
     },
     {
       "id": 7,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Introducción a la hipnoterapia y su aplicación en la atención médica",
       "imagen": "../../assets/images/mental/c3-11.jpg",
@@ -208,6 +214,7 @@
     },
     {
       "id": 8,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Desarrollo de habilidades de hipnoterapia: inducción y profundización",
       "imagen": "../../assets/images/mental/c3-12.jpg",
@@ -215,6 +222,7 @@
     },
     {
       "id": 9,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Aplicaciones clínicas de la hipnoterapia: trastornos psicológicos y dolencias físicas",
       "imagen": "../../assets/images/mental/c3-13.jpg",
@@ -222,6 +230,7 @@
     },
     {
       "id": 10,
+      "precio": 14000,
       "id_curso": 4,
       "nombre": "Asanas para la salud de la columna vertebral ",
       "imagen": "../../assets/images/fisico/c1-11.jpg",
@@ -229,6 +238,7 @@
     },
     {
       "id": 11,
+      "precio": 14000,
       "id_curso": 4,
       "nombre": "Pranayama para la respiración profunda ",
       "imagen": "../../assets/images/fisico/c1-12.jpg",
@@ -236,6 +246,7 @@
     },
     {
       "id": 12,
+      "precio": 14000,
       "id_curso": 4,
       "nombre": "Meditación y yoga para reducir el estrés ",
       "imagen": "../../assets/images/fisico/c1-13.jpg",
@@ -243,6 +254,7 @@
     },
     {
       "id": 13,
+      "precio": 14000,
       "id_curso": 5,
       "nombre": "Técnicas de masaje para dolor de cuello y hombros ",
       "imagen": "../../assets/images/fisico/c2-11.jpg",
@@ -250,6 +262,7 @@
     },
     {
       "id": 14,
+      "precio": 14000,
       "id_curso": 5,
       "nombre": "Ejercicios para fortalecer los músculos de la espalda",
       "imagen": "../../assets/images/fisico/c2-12.jpg",
@@ -257,6 +270,7 @@
     },
     {
       "id": 15,
+      "precio": 14000,
       "id_curso": 5,
       "nombre": "Técnicas de estiramiento para mejorar la movilidad articular ",
       "imagen": "../../assets/images/fisico/c2-13.jpg",
@@ -264,6 +278,7 @@
     },
     {
       "id": 16,
+      "precio": 14000,
       "id_curso": 6,
       "nombre": "Teoría de los meridianos y puntos de acupuntura ",
       "imagen": "../../assets/images/fisico/c3-11.jpg",
@@ -271,6 +286,7 @@
     },
     {
       "id": 17,
+      "precio": 14000,
       "id_curso": 6,
       "nombre": "Técnicas de acupuntura para tratar trastornos digestivos ",
       "imagen": "../../assets/images/fisico/c3-12.jpg",
@@ -278,6 +294,7 @@
     },
     {
       "id": 18,
+      "precio": 14000,
       "id_curso": 6,
       "nombre": "Acupuntura para tratar el insomnio y la ansiedad ",
       "imagen": "../../assets/images/fisico/c3-13.jpg",
@@ -285,6 +302,7 @@
     },
     {
       "id": 19,
+      "precio": 14000,
       "id_curso": 7,
       "nombre": "Introducción a Reiki",
       "imagen": "../../assets/images/energetico/c1-11.jpg",
@@ -292,6 +310,7 @@
     },
     {
       "id": 20,
+      "precio": 14000,
       "id_curso": 7,
       "nombre": "Aprendiendo a canalizar la energía",
       "imagen": "../../assets/images/energetico/c1-12.jpg",
@@ -299,6 +318,7 @@
     },
     {
       "id": 21,
+      "precio": 14000,
       "id_curso": 7,
       "nombre": "Aplicaciones prácticas de Reiki",
       "imagen": "../../assets/images/energetico/c1-13.jpg",
@@ -306,6 +326,7 @@
     },
     {
       "id": 22,
+      "precio": 14000,
       "id_curso": 8,
       "nombre": "Introducción a la Aromaterapia",
       "imagen": "../../assets/images/energetico/c2-11.jpg",
@@ -313,6 +334,7 @@
     },
     {
       "id": 23,
+      "precio": 14000,
       "id_curso": 8,
       "nombre": "Blending de Aceites Esenciales",
       "imagen": "../../assets/images/energetico/c2-12.jpg",
@@ -320,6 +342,7 @@
     },
     {
       "id": 24,
+      "precio": 14000,
       "id_curso": 8,
       "nombre": "Aplicaciones de Aromaterapia en la Salud",
       "imagen": "../../assets/images/energetico/c2-13.jpg",
@@ -327,6 +350,7 @@
     },
     {
       "id": 25,
+      "precio": 14000,
       "id_curso": 9,
       "nombre": "Introducción a la Quiropraxia",
       "imagen": "../../assets/images/energetico/c3-11.jpg",
@@ -334,6 +358,7 @@
     },
     {
       "id": 26,
+      "precio": 14000,
       "id_curso": 9,
       "nombre": "Anatomía y Fisiología para Quiropractores",
       "imagen": "../../assets/images/energetico/c3-12.jpg",
@@ -341,6 +366,7 @@
     },
     {
       "id": 27,
+      "precio": 14000,
       "id_curso": 9,
       "nombre": "Evaluación y Diagnóstico Quiropáctico",
       "imagen": "../../assets/images/energetico/c3-13.jpg",
@@ -348,6 +374,7 @@
     },
     {
       "id": 28,
+      "precio": 14000,
       "id_curso": 10,
       "nombre": "Autoconocimiento",
       "imagen": "../../assets/images/espiritual/c1-11.jpg",
@@ -355,6 +382,7 @@
     },
     {
       "id": 29,
+      "precio": 14000,
       "id_curso": 10,
       "nombre": "Curación emocional",
       "imagen": "../../assets/images/espiritual/c1-12.jpg",
@@ -362,6 +390,7 @@
     },
     {
       "id": 30,
+      "precio": 14000,
       "id_curso": 10,
       "nombre": "Conexión con la naturaleza",
       "imagen": "../../assets/images/espiritual/c1-13.jpg",
@@ -369,6 +398,7 @@
     },
     {
       "id": 31,
+      "precio": 14000,
       "id_curso": 11,
       "nombre": "Meditación para la relajación",
       "imagen": "../../assets/images/espiritual/c2-11.jpg",
@@ -376,6 +406,7 @@
     },
     {
       "id": 32,
+      "precio": 14000,
       "id_curso": 11,
       "nombre": "Meditación para la concentración",
       "imagen": "../../assets/images/espiritual/c2-12.jpg",
@@ -383,6 +414,7 @@
     },
     {
       "id": 33,
+      "precio": 14000,
       "id_curso": 11,
       "nombre": "Meditación para la curación",
       "imagen": "../../assets/images/espiritual/c2-13.jpg",
@@ -390,6 +422,7 @@
     },
     {
       "id": 34,
+      "precio": 14000,
       "id_curso": 12,
       "nombre": "Teoría transpersonal",
       "imagen": "../../assets/images/espiritual/c3-11.jpg",
@@ -397,6 +430,7 @@
     },
     {
       "id": 35,
+      "precio": 14000,
       "id_curso": 12,
       "nombre": "Terapia de sueños",
       "imagen": "../../assets/images/espiritual/c3-12.jpg",
@@ -404,6 +438,7 @@
     },
     {
       "id": 36,
+      "precio": 14000,
       "id_curso": 12,
       "nombre": "Terapia con ayahuasca",
       "imagen": "../../assets/images/espiritual/c3-13.jpg",
@@ -411,6 +446,7 @@
     },
     {
       "id": 37,
+      "precio": 14000,
       "id_curso": 13,
       "nombre": "Técnicas de respiración y relajación para la liberación emocional",
       "imagen": "../../assets/images/emocional/c1-11.jpg",
@@ -418,6 +454,7 @@
     },
     {
       "id": 38,
+      "precio": 14000,
       "id_curso": 13,
       "nombre": "Identificación y manejo de patrones emocionales",
       "imagen": "../../assets/images/emocional/c1-12.jpg",
@@ -425,6 +462,7 @@
     },
     {
       "id": 39,
+      "precio": 14000,
       "id_curso": 13,
       "nombre": "Terapia cognitivo-conductual para la sanación emocional",
       "imagen": "../../assets/images/emocional/c1-13.jpg",
@@ -432,6 +470,7 @@
     },
     {
       "id": 40,
+      "precio": 14000,
       "id_curso": 14,
       "nombre": "Manejo de conflictos interpersonales",
       "imagen": "../../assets/images/emocional/c2-11.jpg",
@@ -439,6 +478,7 @@
     },
     {
       "id": 41,
+      "precio": 14000,
       "id_curso": 14,
       "nombre": "Mediación y negociación",
       "imagen": "../../assets/images/emocional/c2-12.jpg",
@@ -446,6 +486,7 @@
     },
     {
       "id": 42,
+      "precio": 14000,
       "id_curso": 14,
       "nombre": "Terapia de parejas",
       "imagen": "../../assets/images/emocional/c2-13.jpg",
@@ -453,6 +494,7 @@
     },
     {
       "id": 43,
+      "precio": 14000,
       "id_curso": 15,
       "nombre": "Técnicas de Regulación Emocional",
       "imagen": "../../assets/images/emocional/c3-11.jpg",
@@ -460,6 +502,7 @@
     },
     {
       "id": 44,
+      "precio": 14000,
       "id_curso": 15,
       "nombre": "Comunicación No Violenta",
       "imagen": "../../assets/images/emocional/c3-12.jpg",
@@ -467,6 +510,7 @@
     },
     {
       "id": 45,
+      "precio": 14000,
       "id_curso": 15,
       "nombre": "Sanación a Través del Movimiento",
       "imagen": "../../assets/images/emocional/c3-13.jpg",

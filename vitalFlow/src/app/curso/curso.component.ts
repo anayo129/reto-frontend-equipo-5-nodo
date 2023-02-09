@@ -1,7 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
-import { GetCursoService } from './get-curso.service';
-import { GetMaterialService } from './get-material.service';
+import { GetCursoService } from '../services/get-curso.service';
+import { GetMaterialService } from '../services/get-material.service';
 
 @Component({
   selector: 'app-curso',

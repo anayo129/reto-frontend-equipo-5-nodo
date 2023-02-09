@@ -58,16 +58,17 @@ const routes: Routes = [
     path: 'pagos',
     component: PagosComponent,
   },
-  {
-    path: '',
-    redirectTo: '/index',
-    pathMatch: 'full',
-    
-  },
   // {
   //   path: '',
-  //   redirectTo: '/registro',
+  //   redirectTo: '/index',
   //   pathMatch: 'full',
+    
+  // },
+  {
+    path: '',
+    redirectTo: '/registro',
+    pathMatch: 'full',
+  }
     
 ]
 @NgModule({

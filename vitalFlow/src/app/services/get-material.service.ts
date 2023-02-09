@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { Material } from './material';
+import { Material } from '../interface/material';
 
 @Injectable({
   providedIn: 'root'
