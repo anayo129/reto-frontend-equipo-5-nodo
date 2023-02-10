@@ -1,0 +1,4 @@
+solo una vez
+npm install -g json-server
+cada vez que corra la aplicacion
+json-server --watch db.json

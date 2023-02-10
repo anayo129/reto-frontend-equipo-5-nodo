@@ -14,6 +14,9 @@ import { AuthGuard } from './auth.guard';
 import { MaterialComponent } from './material/material.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RegistroComponent } from './registro/registro.component';
+import { CursoComponent } from './curso/curso.component';
+
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -29,39 +32,53 @@ const routes: Routes = [
 //   // ] },
 //   { path: '', redirectTo: '/index', pathMatch: 'full' }
 // ];
-{
-  path: 'login',
-  component: LoginComponent
-},
-{
-  path: 'index',
-  component: IndexComponent
-},
-{
-  path: 'formulario',
-  component: FormularioComponent,
- 
-},
-{
-  path: 'password',
-  component: ContrasenaComponent
-},
-{
-  path: 'home',
-  component: HomeComponent,
-  canActivate: [AuthGuard]
-},
-{
-  path: '',
-  redirectTo: '/index',
-  pathMatch: 'full',
-  
-},
-{
-  path: '**',
-  component: PageNotFoundComponent,
-}
 
+  {
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'index',
+    component: IndexComponent,
+  },
+  {
+    path: 'formulario',
+    component: FormularioComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'password',
+    component: ContrasenaComponent
+  },
+  {
+    path: 'registro',
+    component: RegistroComponent
+  },
+  {
+    path: 'home',
+    component: HomeComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'curso',
+    component: CursoComponent
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  },
+  {
+    path: '',
+    redirectTo: '/index',
+    pathMatch: 'full',
+    
+  },
+  // {
+  //   path: '',
+  //   redirectTo: '/registro',
+  //   pathMatch: 'full',
+    
+  // }
 
 ]
 @NgModule({
@@ -69,9 +86,7 @@ const routes: Routes = [
   imports: [
     [RouterModule.forRoot(routes)],
     CommonModule,
-    // RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
-  // exports: [RouterModule]
 })
 export class AppRoutingModule { }

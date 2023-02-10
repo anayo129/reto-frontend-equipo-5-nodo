@@ -28,6 +28,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CookieService } from 'ngx-cookie-service';
+
 
 
 
@@ -36,9 +38,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     IndexComponent,
     LoginComponent,
-    RegistroComponent,
     HomeComponent,
-    CursoComponent,
     MaterialComponent,
     PagosComponent,
     EncabezadoComponent,
@@ -64,7 +64,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ReactiveFormsModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
