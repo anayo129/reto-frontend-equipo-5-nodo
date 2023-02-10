@@ -1,24 +1,20 @@
-<!-- <button type="button" class="btn btn-primary" (click)="redirectCurso(1)">Mindfulness para la salud</button>
-<button type="button" class="btn btn-secondary" (click)="redirectCurso(2)">Terapia cognitivo-conductual</button>
-<button type="button" class="btn btn-success" (click)="redirectCurso(3)">Hipnoterapia clínica</button> -->
-
-<!-- <ul *ngFor="let item of cuerpo">
-    <li>{{ item.nombre }}</li>
-
-</ul> -->
-
 
   <div class="container container-curso">
+
     <div class="row">
       <div class="col-md-6">
         <h3 style="color: #333; margin-top: 30px;">Mental</h3>
       </div>
         <div class="row" >
           <div class="col-md-4 container-material" *ngFor="let i of curso1">
+            <h1>{{i.nombre}}</h1>
+            <p>{{i.descripcion}}</p>
             <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
           </div>    
         </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-6">
         <h3 style="color: #333; margin-top: 30px;">Fisico</h3>
@@ -29,6 +25,8 @@
           </div>    
         </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-6">
         <h3 style="color: #333; margin-top: 30px;">Energetico</h3>
@@ -39,6 +37,8 @@
           </div>    
         </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-6">
         <h3 style="color: #333; margin-top: 30px;">Espiritual</h3>
@@ -49,6 +49,8 @@
           </div>    
         </div>
     </div>
+
+
     <div class="row">
       <div class="col-md-6">
         <h3 style="color: #333; margin-top: 30px;">Emocional</h3>

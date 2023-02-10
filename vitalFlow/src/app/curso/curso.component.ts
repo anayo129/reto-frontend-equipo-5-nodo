@@ -32,6 +32,10 @@ export class CursoComponent implements OnInit  {
     this.router.navigate(['/material']);
   }
 
+  redirectPagos(){
+    this.router.navigate(['/pagos']);
+  }
+
   
 }
 
