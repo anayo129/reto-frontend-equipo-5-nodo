@@ -1,1 +1,74 @@
-<p>material works!</p>
+<div class="container container-curso">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="video-container text-center">
+          <iframe
+            src="https://www.youtube.com/embed/tu-video-id"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+    </div>   
+  </div>
+  <div *ngIf="material">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">          
+            <div class="card-body">
+              <h5 class="card-title"> <img class="rounded-circle"  style="width: 50px; height: 50px;" src={{material.imagen}}>{{material.nombre}}</h5>
+              <p class="card-text">{{material.descripcion}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">
+              <h5>Product Reviews</h5>
+            </div>
+            <div class="card-body">
+              <div class="review-card">
+                <h6>John Doe</h6>
+                <div class="review-star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin libero eget magna egestas commodo.</p>
+              </div>
+              <div class="review-card">
+                <h6>Jane Doe</h6>
+                <div class="review-star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin libero eget magna egestas commodo.</p>
+              </div>
+              <div class="review-card">
+                <h6>Jim Smith</h6>
+                <div class="review-star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin libero eget magna egestas commodo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+

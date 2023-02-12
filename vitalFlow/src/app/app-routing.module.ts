@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CursoComponent } from './curso/curso.component';
+import { PagosComponent } from './pagos/pagos.component';
 
 
 const routes: Routes = [
@@ -64,21 +65,32 @@ const routes: Routes = [
     component: CursoComponent
   },
   {
-    path: '**',
-    component: PageNotFoundComponent
+    path: 'material',
+    component: MaterialComponent
+  },
+  {
+    path: 'pagos',
+    component: PagosComponent,
   },
   {
     path: '',
     redirectTo: '/index',
     pathMatch: 'full',
-    
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   },
   // {
   //   path: '',
-  //   redirectTo: '/registro',
+  //   redirectTo: '/index',
   //   pathMatch: 'full',
     
+
   // }
+  // },
+
+    
 
 ]
 @NgModule({

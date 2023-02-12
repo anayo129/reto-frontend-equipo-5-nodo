@@ -61,8 +61,9 @@
   "cursos":[
     {
       "id":1,
-      "id_cuerpo": "1",
+      "id_cuerpo": 1,
       "nombre": "Mindfulness para la salud",
+      "precio": "1000",
       "imagen": "../../assets/images/mental/c1-1.jpg",
       "descripcion": "Este curso ofrece una introducción práctica al mindfulness y su aplicación en el mejoramiento de la salud física y mental. Los estudiantes aprenderán a desarrollar habilidades de concentración y atención plena y a integrar la práctica de mindfulness en su vida diaria."
     },
@@ -70,6 +71,7 @@
       "id":2,
       "id_cuerpo": 1,
       "nombre": "Terapia cognitivo-conductual",
+      "precio": "1100",
       "imagen": "../../assets/images/mental/c2-1.jpg",
       "descripcion": "Este curso proporciona una comprensión completa de la hipnoterapia y su aplicación en el tratamiento de problemas psicológicos y físicos. Los estudiantes aprenderán técnicas esenciales de inducción y profundización en hipnoterapia y cómo utilizar la hipnoterapia en el tratamiento de trastornos específicos."
     },
@@ -77,14 +79,106 @@
       "id":3,
       "id_cuerpo": 1,
       "nombre": "Hipnoterapia clínica",
+      "precio": "1200",
       "imagen": "../../assets/images/mental/c3-1.jpg",
       "descripcion": "Este curso enseña a los estudiantes cómo utilizar la meditación como una herramienta efectiva para reducir el estrés y mejorar la calidad de vida. Se abordarán diferentes tipos de meditación y se proporcionarán prácticas guiadas para ayudar a los estudiantes a integrar la meditación en su rutina diaria."
+    },
+    {
+      "id":4,
+      "id_cuerpo": 2,
+      "nombre": "Yoga para la Salud",
+      "precio": "1200",
+      "imagen": "../../assets/images/fisico/c1-1.jpg",
+      "descripcion": "Este curso enseña las posturas, respiración y meditación del yoga para mejorar la salud física y emocional. Aprenderás a equilibrar el cuerpo y la mente para una vida más saludable"
+    },
+    {
+      "id":5,
+      "id_cuerpo": 2,
+      "nombre": "Entrenamiento Funcional",
+      "precio": "1100",
+      "imagen": "../../assets/images/fisico/c2-1.jpg",
+      "descripcion": "Este curso te enseñará cómo entrenar con movimientos funcionales para mejorar la movilidad, la fuerza y la postura. Aprenderás a trabajar los músculos de manera efectiva y segura."
+    },
+    {
+      "id":6,
+      "id_cuerpo": 2,
+      "nombre": "Acupuntura",
+      "precio": "1000",
+      "imagen": "../../assets/images/fisico/c3-1.jpg",
+      "descripcion": "Este curso te enseñará cómo utilizar los puntos de acupuntura para equilibrar la energía y mejorar la salud. Aprenderás a utilizar las agujas de acupuntura para tratar afecciones físicas y emocionales."
+    },
+    {
+      "id":7,
+      "id_cuerpo": 3,
+      "nombre": "Curso de Reiki",
+      "precio": "1100",
+      "imagen": "../../assets/images/energetico/c1-1.jpg",
+      "descripcion": "Este curso introduce a los estudiantes en el mundo de la energía y cómo utilizarla para mejorar su salud y bienestar. Aprenderán técnicas de canalización y sanación para ayudar a equilibrar el cuerpo y la mente."
+    },{
+      "id":8,
+      "id_cuerpo": 3,
+      "nombre": "Curso de Aromaterapia",
+      "precio": "1000",
+      "imagen": "../../assets/images/energetico/c2-1.jpg",
+      "descripcion": "Este curso introduce a los estudiantes en el mundo de los aceites esenciales y cómo pueden ser utilizados para equilibrar la energía y mejorar la salud. Aprenderán sobre las propiedades terapéuticas de los aceites y cómo crear mezclas personalizadas."
+    },{
+      "id":9,
+      "id_cuerpo": 3,
+      "nombre": "Curso de Quiropraxia",
+      "precio": "1100",
+      "imagen": "../../assets/images/energetico/c3-1.jpg",
+      "descripcion": "Este curso enseña a los estudiantes cómo detectar y corregir las desalineaciones vertebrales para mejorar la salud y el bienestar. Aprenderán técnicas de ajuste manual y cómo utilizarlas en combinación con ejercicios para lograr una columna vertebral saludable."
+    },{
+      "id":10,
+      "id_cuerpo": 4,
+      "nombre": "Desarrollo espiritual",
+      "imagen": "../../assets/images/espiritual/c1-1.jpg",
+      "descripcion": "Este curso enseña a los estudiantes sobre cómo desarrollar su conexión con un poder superior y mejorar su bienestar emocional y espiritual."
+    },{
+      "id":11,
+      "id_cuerpo": 4,
+      "nombre": "Meditación profunda",
+      "precio": "1000",
+      "imagen": "../../assets/images/espiritual/c2-1.jpg",
+      "descripcion": "Este curso enseña a los estudiantes a meditar de manera profunda y efectiva para reducir el estrés y mejorar la concentración."
+    },{
+      "id":12,
+      "id_cuerpo": 4,
+      "nombre": "Terapia transpersonal",
+      "precio": "1100",
+      "imagen": "../../assets/images/espiritual/c3-1.jpg",
+      "descripcion": "Este curso se centra en la terapia que utiliza enfoques espirituales y transpersonales para ayudar a las personas a resolver problemas emocionales y psicológicos."
+    },
+    {
+      "id":13,
+      "id_cuerpo": 5,
+      "nombre": "Terapia de liberación emocional",
+      "precio": "1200",
+      "imagen": "../../assets/images/emocional/c1-1.jpg",
+      "descripcion": "Este curso se enfoca en ayudar a las personas a liberarse de las emociones negativas que están afectando su bienestar. Se utilizan técnicas como la meditación, la visualización y la expresión emocional para liberar la tensión emocional."
+    },
+    {
+      "id":14,
+      "id_cuerpo": 5,
+      "nombre": "Terapia de resolución de conflictos",
+      "precio": "1000",
+      "imagen": "../../assets/images/emocional/c2-1.jpg",
+      "descripcion": "Este curso ayuda a las personas a resolver conflictos internos y externos. Se enseñan estrategias para la comunicación efectiva y la resolución pacífica de conflictos."
+    },
+    {
+      "id":15,
+      "id_cuerpo": 5,
+      "nombre": "Terapia de sanación emocional",
+      "precio": "1100",
+      "imagen": "../../assets/images/emocional/c3-1.jpg",
+      "descripcion": "Este curso se enfoca en la sanación emocional a través del autoconocimiento y la toma de responsabilidad por las propias emociones. Se utilizan técnicas de terapia cognitiva y de crecimiento personal para alcanzar una mayor armonía emocional."
     }
   ],
 
   "material":[
     {
       "id": 1,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Introducción a la práctica de mindfulness y su importancia para la salud",
       "imagen": "../../assets/images/mental/c1-11.jpg",
@@ -92,6 +186,7 @@
     },
     {
       "id": 2,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Desarrollo de habilidades de mindfulness: concentración y atención plena",
       "imagen": "../../assets/images/mental/c1-12.jpg",
@@ -99,6 +194,7 @@
     },
     {
       "id": 3,
+      "precio": 14000,
       "id_curso": 1,
       "nombre": "Integración de mindfulness en la vida diaria: estrategias y desafíos",
       "imagen": "../../assets/images/mental/c1-13.jpg",
@@ -106,6 +202,7 @@
     },
     {
       "id": 4,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Introducción a la teoría cognitiva y la terapia cognitivo-conductual",
       "imagen": "../../assets/images/mental/c2-11.jpg",
@@ -113,6 +210,7 @@
     },
     {
       "id": 5,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Técnicas de reestructuración cognitiva en terapia cognitivo-conductual",
       "imagen": "../../assets/images/mental/c2-12.jpg",
@@ -120,6 +218,7 @@
     },
     {
       "id": 6,
+      "precio": 14000,
       "id_curso": 2,
       "nombre": "Aplicación de la terapia cognitivo-conductual en trastornos psicológicos comunes",
       "imagen": "../../assets/images/mental/c2-13.jpg",
@@ -127,6 +226,7 @@
     },
     {
       "id": 7,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Introducción a la hipnoterapia y su aplicación en la atención médica",
       "imagen": "../../assets/images/mental/c3-11.jpg",
@@ -134,6 +234,7 @@
     },
     {
       "id": 8,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Desarrollo de habilidades de hipnoterapia: inducción y profundización",
       "imagen": "../../assets/images/mental/c3-12.jpg",
@@ -141,10 +242,300 @@
     },
     {
       "id": 9,
+      "precio": 14000,
       "id_curso": 3,
       "nombre": "Aplicaciones clínicas de la hipnoterapia: trastornos psicológicos y dolencias físicas",
       "imagen": "../../assets/images/mental/c3-13.jpg",
       "descripcion": "Esta clase explorará cómo la hipnoterapia se utiliza en el tratamiento de trastornos psicológicos y dolencias físicas, incluyendo ansiedad, depresión, dolor crónico y problemas de hábitos. Se discutirán estrategias de tratamiento específicas y cómo utilizar la hipnoterapia en conjunto con otros enfoques terapéuticos"
+    },
+    {
+      "id": 10,
+      "precio": 14000,
+      "id_curso": 4,
+      "nombre": "Asanas para la salud de la columna vertebral ",
+      "imagen": "../../assets/images/fisico/c1-11.jpg",
+      "descripcion": "En esta clase se enseñarán técnicas de yoga específicas para aliviar el dolor en la columna vertebral y mejorar la postura."
+    },
+    {
+      "id": 11,
+      "precio": 14000,
+      "id_curso": 4,
+      "nombre": "Pranayama para la respiración profunda ",
+      "imagen": "../../assets/images/fisico/c1-12.jpg",
+      "descripcion": "En esta clase se explorarán técnicas de control de la respiración para mejorar la salud pulmonar y promover la relajación."
+    },
+    {
+      "id": 12,
+      "precio": 14000,
+      "id_curso": 4,
+      "nombre": "Meditación y yoga para reducir el estrés ",
+      "imagen": "../../assets/images/fisico/c1-13.jpg",
+      "descripcion": "En esta clase se combinarán técnicas de meditación y yoga para ayudar a reducir los niveles de estrés y mejorar la salud mental."
+    },
+    {
+      "id": 13,
+      "precio": 14000,
+      "id_curso": 5,
+      "nombre": "Técnicas de masaje para dolor de cuello y hombros ",
+      "imagen": "../../assets/images/fisico/c2-11.jpg",
+      "descripcion": "En esta clase se enseñarán técnicas de masaje efectivas para aliviar el dolor en el cuello y los hombros."
+    },
+    {
+      "id": 14,
+      "precio": 14000,
+      "id_curso": 5,
+      "nombre": "Ejercicios para fortalecer los músculos de la espalda",
+      "imagen": "../../assets/images/fisico/c2-12.jpg",
+      "descripcion": "En esta clase se enseñarán ejercicios específicos para fortalecer los músculos de la espalda y prevenir lesiones."
+    },
+    {
+      "id": 15,
+      "precio": 14000,
+      "id_curso": 5,
+      "nombre": "Técnicas de estiramiento para mejorar la movilidad articular ",
+      "imagen": "../../assets/images/fisico/c2-13.jpg",
+      "descripcion": "En esta clase se explorarán técnicas de estiramiento para mejorar la movilidad articular y prevenir la rigidez muscular."
+    },
+    {
+      "id": 16,
+      "precio": 14000,
+      "id_curso": 6,
+      "nombre": "Teoría de los meridianos y puntos de acupuntura ",
+      "imagen": "../../assets/images/fisico/c3-11.jpg",
+      "descripcion": "En esta clase se explorará la teoría detrás de los meridianos y los puntos de acupuntura utilizados en la terapia."
+    },
+    {
+      "id": 17,
+      "precio": 14000,
+      "id_curso": 6,
+      "nombre": "Técnicas de acupuntura para tratar trastornos digestivos ",
+      "imagen": "../../assets/images/fisico/c3-12.jpg",
+      "descripcion": "En esta clase se enseñarán técnicas de acupuntura efectivas para tratar trastornos digestivos."
+    },
+    {
+      "id": 18,
+      "precio": 14000,
+      "id_curso": 6,
+      "nombre": "Acupuntura para tratar el insomnio y la ansiedad ",
+      "imagen": "../../assets/images/fisico/c3-13.jpg",
+      "descripcion": "En esta clase se explorarán técnicas de acupuntura efectivas para tratar el insomnio y la ansiedad."
+    },
+    {
+      "id": 19,
+      "precio": 14000,
+      "id_curso": 7,
+      "nombre": "Introducción a Reiki",
+      "imagen": "../../assets/images/energetico/c1-11.jpg",
+      "descripcion": "Esta clase explora la historia y los principios básicos del Reiki, incluyendo la energía universal y los chakras."
+    },
+    {
+      "id": 20,
+      "precio": 14000,
+      "id_curso": 7,
+      "nombre": "Aprendiendo a canalizar la energía",
+      "imagen": "../../assets/images/energetico/c1-12.jpg",
+      "descripcion": ": En esta clase, los estudiantes aprenderán técnicas para canalizar y utilizar la energía Reiki para tratar a otros y a sí mismos."
+    },
+    {
+      "id": 21,
+      "precio": 14000,
+      "id_curso": 7,
+      "nombre": "Aplicaciones prácticas de Reiki",
+      "imagen": "../../assets/images/energetico/c1-13.jpg",
+      "descripcion": "Aquí, los estudiantes pondrán en práctica lo que han aprendido, realizando tratamientos Reiki en parejas y recibiendo retroalimentación sobre su práctica"
+    },
+    {
+      "id": 22,
+      "precio": 14000,
+      "id_curso": 8,
+      "nombre": "Introducción a la Aromaterapia",
+      "imagen": "../../assets/images/energetico/c2-11.jpg",
+      "descripcion": "Conozca los conceptos básicos y fundamentos de la aromaterapia, incluyendo cómo seleccionar y usar aceites esenciales para mejorar su bienestar físico y emocional."
+    },
+    {
+      "id": 23,
+      "precio": 14000,
+      "id_curso": 8,
+      "nombre": "Blending de Aceites Esenciales",
+      "imagen": "../../assets/images/energetico/c2-12.jpg",
+      "descripcion": "Aprenda a crear su propia mezcla de aceites esenciales para abordar una amplia variedad de necesidades, desde la relajación hasta la mejora de la piel."
+    },
+    {
+      "id": 24,
+      "precio": 14000,
+      "id_curso": 8,
+      "nombre": "Aplicaciones de Aromaterapia en la Salud",
+      "imagen": "../../assets/images/energetico/c2-13.jpg",
+      "descripcion": "Descubra cómo la aromaterapia puede ayudar a tratar una amplia variedad de afecciones, desde el insomnio hasta el dolor de cabeza, y cómo utilizar los aceites esenciales de manera segura y efectiva."
+    },
+    {
+      "id": 25,
+      "precio": 14000,
+      "id_curso": 9,
+      "nombre": "Introducción a la Quiropraxia",
+      "imagen": "../../assets/images/energetico/c3-11.jpg",
+      "descripcion": "Conozca los conceptos básicos y fundamentos de la quiropraxia, incluyendo su filosofía, objetivos y técnicas."
+    },
+    {
+      "id": 26,
+      "precio": 14000,
+      "id_curso": 9,
+      "nombre": "Anatomía y Fisiología para Quiropractores",
+      "imagen": "../../assets/images/energetico/c3-12.jpg",
+      "descripcion": "Aprenda sobre la estructura y función del cuerpo humano desde una perspectiva quiropáctica y cómo la columna vertebral y los nervios afectan la salud general."
+    },
+    {
+      "id": 27,
+      "precio": 14000,
+      "id_curso": 9,
+      "nombre": "Evaluación y Diagnóstico Quiropáctico",
+      "imagen": "../../assets/images/energetico/c3-13.jpg",
+      "descripcion": "Descubra cómo los quiropractores evalúan y diagnostican los problemas de la columna vertebral y los nervios, y cómo utilizan esta información para formular un plan de tratamiento individualizado."
+    },
+    {
+      "id": 28,
+      "precio": 14000,
+      "id_curso": 10,
+      "nombre": "Autoconocimiento",
+      "imagen": "../../assets/images/espiritual/c1-11.jpg",
+      "descripcion": ": Este curso se enfoca en ayudar a los estudiantes a conocerse a sí mismos a través de técnicas y herramientas que les permitan explorar su ser interior."
+    },
+    {
+      "id": 29,
+      "precio": 14000,
+      "id_curso": 10,
+      "nombre": "Curación emocional",
+      "imagen": "../../assets/images/espiritual/c1-12.jpg",
+      "descripcion": "Este curso se enfoca en el proceso de curación emocional para alcanzar un mayor bienestar espiritual. Incluye técnicas de meditación, visualización y terapia emocional."
+    },
+    {
+      "id": 30,
+      "precio": 14000,
+      "id_curso": 10,
+      "nombre": "Conexión con la naturaleza",
+      "imagen": "../../assets/images/espiritual/c1-13.jpg",
+      "descripcion": "Este curso ofrece herramientas para conectarse con la naturaleza y aprender a reconocer los mensajes y señales que la naturaleza puede enviar para ayudar en el crecimiento espiritual."
+    },
+    {
+      "id": 31,
+      "precio": 14000,
+      "id_curso": 11,
+      "nombre": "Meditación para la relajación",
+      "imagen": "../../assets/images/espiritual/c2-11.jpg",
+      "descripcion": "Este curso enseña técnicas para alcanzar un estado de relajación profundo a través de la meditación."
+    },
+    {
+      "id": 32,
+      "precio": 14000,
+      "id_curso": 11,
+      "nombre": "Meditación para la concentración",
+      "imagen": "../../assets/images/espiritual/c2-12.jpg",
+      "descripcion": "Este curso se centra en enseñar técnicas de meditación para mejorar la concentración y la claridad mental."
+    },
+    {
+      "id": 33,
+      "precio": 14000,
+      "id_curso": 11,
+      "nombre": "Meditación para la curación",
+      "imagen": "../../assets/images/espiritual/c2-13.jpg",
+      "descripcion": "Este curso presenta técnicas de meditación para sanar tanto a nivel físico como emocional."
+    },
+    {
+      "id": 34,
+      "precio": 14000,
+      "id_curso": 12,
+      "nombre": "Teoría transpersonal",
+      "imagen": "../../assets/images/espiritual/c3-11.jpg",
+      "descripcion": "Este curso se centra en la teoría y los conceptos básicos de la terapia transpersonal, incluyendo la conexión con uno mismo y con el universo."
+    },
+    {
+      "id": 35,
+      "precio": 14000,
+      "id_curso": 12,
+      "nombre": "Terapia de sueños",
+      "imagen": "../../assets/images/espiritual/c3-12.jpg",
+      "descripcion": "Este curso explora el papel de los sueños en el crecimiento espiritual y cómo utilizarlos como herramienta terapéutica."
+    },
+    {
+      "id": 36,
+      "precio": 14000,
+      "id_curso": 12,
+      "nombre": "Terapia con ayahuasca",
+      "imagen": "../../assets/images/espiritual/c3-13.jpg",
+      "descripcion": "Este curso se centra en la utilización de ayahuasca como herramienta terapéutica en el contexto de la terapia transpersonal."
+    },
+    {
+      "id": 37,
+      "precio": 14000,
+      "id_curso": 13,
+      "nombre": "Técnicas de respiración y relajación para la liberación emocional",
+      "imagen": "../../assets/images/emocional/c1-11.jpg",
+      "descripcion": "En esta clase, los estudiantes aprenderán sobre la importancia de la conexión entre la respiración y las emociones, así como técnicas de respiración y relajación para liberar tensiones emocionales y mejorar su bienestar."
+    },
+    {
+      "id": 38,
+      "precio": 14000,
+      "id_curso": 13,
+      "nombre": "Identificación y manejo de patrones emocionales",
+      "imagen": "../../assets/images/emocional/c1-12.jpg",
+      "descripcion": "En esta clase, los estudiantes aprenderán a identificar y manejar patrones emocionales dañinos, a través de la exploración de sus propias emociones y de la práctica de técnicas de regulación emocional."
+    },
+    {
+      "id": 39,
+      "precio": 14000,
+      "id_curso": 13,
+      "nombre": "Terapia cognitivo-conductual para la sanación emocional",
+      "imagen": "../../assets/images/emocional/c1-13.jpg",
+      "descripcion": ": En esta clase, los estudiantes explorarán la terapia cognitivo-conductual y cómo puede ser utilizada para ayudar a sanar heridas emocionales y mejorar la salud mental. Se enseñarán técnicas prácticas para identificar y reemplazar patrones de pensamiento negativos y aumentar la resiliencia emocional."
+    },
+    {
+      "id": 40,
+      "precio": 14000,
+      "id_curso": 14,
+      "nombre": "Manejo de conflictos interpersonales",
+      "imagen": "../../assets/images/emocional/c2-11.jpg",
+      "descripcion": "En este curso se aborda cómo identificar y resolver conflictos en relaciones personales y profesionales. Los estudiantes aprenderán técnicas de comunicación efectiva y solución de problemas para mejorar sus relaciones y reducir la tensión."
+    },
+    {
+      "id": 41,
+      "precio": 14000,
+      "id_curso": 14,
+      "nombre": "Mediación y negociación",
+      "imagen": "../../assets/images/emocional/c2-12.jpg",
+      "descripcion": "Este curso se centra en el uso de la mediación y la negociación para resolver conflictos. Los estudiantes aprenderán técnicas para ayudar a las partes a llegar a un acuerdo mutuamente satisfactorio y reducir la tensión en situaciones de conflicto."
+    },
+    {
+      "id": 42,
+      "precio": 14000,
+      "id_curso": 14,
+      "nombre": "Terapia de parejas",
+      "imagen": "../../assets/images/emocional/c2-13.jpg",
+      "descripcion": "Este curso aborda cómo resolver conflictos y mejorar la comunicación en relaciones de pareja. Los estudiantes aprenderán técnicas y herramientas para ayudar a las parejas a superar obstáculos y fortalecer sus relaciones a largo plazo."
+    },
+    {
+      "id": 43,
+      "precio": 14000,
+      "id_curso": 15,
+      "nombre": "Técnicas de Regulación Emocional",
+      "imagen": "../../assets/images/emocional/c3-11.jpg",
+      "descripcion": "En esta clase, los estudiantes aprenderán cómo regular sus emociones y manejar la ansiedad y el estrés. Se presentarán técnicas de respiración profunda, meditación y ejercicios de atención plena para ayudar a los estudiantes a desarrollar una relación más saludable con sus emociones"
+    },
+    {
+      "id": 44,
+      "precio": 14000,
+      "id_curso": 15,
+      "nombre": "Comunicación No Violenta",
+      "imagen": "../../assets/images/emocional/c3-12.jpg",
+      "descripcion": "Esta clase se centra en la importancia de la comunicación en la sanación emocional. Los estudiantes aprenderán cómo comunicarse de manera clara y efectiva sin lastimar a los demás ni a uno mismo. Se explorará la importancia de expresar sentimientos y necesidades de manera asertiva y respetuosa."
+    },
+    {
+      "id": 45,
+      "precio": 14000,
+      "id_curso": 15,
+      "nombre": "Sanación a Través del Movimiento",
+      "imagen": "../../assets/images/emocional/c3-13.jpg",
+      "descripcion": "En esta clase, los estudiantes descubrirán cómo el movimiento puede ayudar en la sanación emocional. Se presentarán ejercicios de yoga, danza y otras formas de movimiento para liberar tensiones y emociones reprimidas. Los estudiantes aprenderán a conectarse con su cuerpo y a utilizar el movimiento como una herramienta para la sanación emocional."
     }
   ]
+  
 }

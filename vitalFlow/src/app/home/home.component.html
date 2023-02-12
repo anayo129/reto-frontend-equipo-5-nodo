@@ -17,15 +17,113 @@
         </div>
      </nav>
 </header>
-<section class="section-one">
-    <img  class="section--component" src="/assets/logos/vitalflowlogo.png" alt="">
-</section>
-<section class="section-two">
+<div >
+    <section class="section-one">
+        <img  class="section--component" src="/assets/logos/vitalflowlogo.png" alt="">
+    </section>
 
-</section>
-<section class="section-tree">
-    <p class="parrafo-prueba">.</p>
-</section>
+    <section class="section-two">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h3 class="section-title--h3">  <fa-icon  class="seaarch-container--lup"  [icon]="faBrain"></fa-icon> Mental</h3>
+            </div>
+              <div class="row section-container--target" >
+                <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso1">
+                  <img  class="section-container--img" src="{{i.imagen}}" alt=""> 
+                  <h1>{{i.nombre}}</h1>
+                  <div class="section-container--paragraph">
+                    <p class="description">{{i.descripcion}}</p>
+                  </div>
+                  <button class="section-container--button" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+                  <div class="section-container--footer_one"></div>
+                  <div class="section-container-footer_two"></div>
+                </div>    
+              </div>
+          </div>
+    </section>
+
+    <section class="section-tree">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2 mb-5"  [icon]="faChild"></fa-icon>Fisico</h3>
+            </div>
+              <div class="row section-container--target" >
+                <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso2">
+                    <img class="section-container--img" src="{{i.imagen}}" alt=""> 
+                    <h1>{{i.nombre}}</h1>
+                    <div class="section-container--paragraph">
+                      <p class="description">{{i.descripcion}}</p>
+                    </div>
+                    <button class="section-container--button" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+                    <div class="section-container--footer_one"></div>
+                    <div class="section-container-footer_two"></div>
+                </div>    
+              </div>
+          </div>
+    </section>
+
+    <section class="section-two">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faPersonWalking"></fa-icon>Energetico</h3>
+            </div>
+              <div class="row section-container--target" >
+                <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso3">
+                    <img  class="section-container--img" src="{{i.imagen}}" alt="">
+                    <h1>{{i.nombre}}</h1>
+                    <div class="section-container--paragraph">
+                      <p class="description">{{i.descripcion}}</p>
+                    </div>
+                    <button class="section-container--button" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+                    <div class="section-container--footer_one"></div>
+                    <div class="section-container-footer_two"></div>
+                </div>    
+              </div>
+          </div>
+    </section>
+
+    <section class="section-tree">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h3 style="color: #333; margin-top: 30px;"><fa-icon  class="seaarch-container--lup me-2"  [icon]="faSun"></fa-icon>Espiritual</h3>
+            </div>
+              <div class="row section-container--target" >
+                <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso4">
+                  <img  class="section-container--img" src="{{i.imagen}}" alt=""> 
+                  <h1>{{i.nombre}}</h1>
+                  <div class="section-container--paragraph">
+                    <p class="description">{{i.descripcion}}</p>
+                  </div>
+                  <button class="section-container--button" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+                    <div class="section-container--footer_one"></div>
+                    <div class="section-container-footer_two"></div>
+                </div>    
+              </div>
+          </div>
+    </section >
+
+    <section class="section-two">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faFaceSmile"></fa-icon>Emocional</h3>
+            </div>
+              <div class="row section-container--target" >
+                <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso5">
+                    <img  class="section-container--img" src="{{i.imagen}}" alt=""> 
+                    <h1>{{i.nombre}}</h1>
+                    <div class="section-container--paragraph">
+                      <p class="description">{{i.descripcion}}</p>
+                    </div>
+                    <button class="section-container--button" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+                    <div class="section-container--footer_one"></div>
+                    <div class="section-container-footer_two"></div>
+                </div>    
+              </div>
+          </div>
+    </section>
+
+</div>
+
 </ng-container>
 
 

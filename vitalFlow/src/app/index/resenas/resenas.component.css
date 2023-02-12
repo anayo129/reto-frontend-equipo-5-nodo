@@ -1,11 +1,12 @@
 .resenas {
-    
-    background-image: url(https://cdn.pixabay.com/photo/2019/04/21/21/32/nature-4145029_960_720.jpg);
-    background-size: cover;
-    height: 100vh;
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-  }
+  background-image: url('src/assets/images/fondos/13.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
   

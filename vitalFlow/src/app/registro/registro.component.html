@@ -1,5 +1,67 @@
-<button type="button" class="btn btn-primary" (click)="redirectMaterial(1)">Mindfulness para la salud</button>
-<button type="button" class="btn btn-secondary" (click)="redirectMaterial(2)">Terapia cognitivo-conductual</button>
-<button type="button" class="btn btn-success" (click)="redirectMaterial(3)">Hipnoterapia clínica</button>
 
+  <div class="container container-curso">
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: #333; margin-top: 30px;">Mental</h3>
+      </div>
+        <div class="row" >
+          <div class="col-md-4 container-material" *ngFor="let i of curso1">
+            <h1>{{i.nombre}}</h1>
+            <p>{{i.descripcion}}</p>
+            <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+          </div>    
+        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: #333; margin-top: 30px;">Fisico</h3>
+      </div>
+        <div class="row" >
+          <div class="col-md-4 container-material" *ngFor="let i of curso2">
+            <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+          </div>    
+        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: #333; margin-top: 30px;">Energetico</h3>
+      </div>
+        <div class="row" >
+          <div class="col-md-4 container-material" *ngFor="let i of curso3">
+            <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+          </div>    
+        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: #333; margin-top: 30px;">Espiritual</h3>
+      </div>
+        <div class="row" >
+          <div class="col-md-4 container-material" *ngFor="let i of curso4">
+            <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+          </div>    
+        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: #333; margin-top: 30px;">Emocional</h3>
+      </div>
+        <div class="row" >
+          <div class="col-md-4 container-material" *ngFor="let i of curso5">
+            <button class="btn btn-primary" (click)="redirectCurso(i.id)" style="margin-bottom: 30px; border-radius: 25px;">{{i.nombre}}</button>
+          </div>    
+        </div>
+    </div>
+  </div>
+
+ 
 

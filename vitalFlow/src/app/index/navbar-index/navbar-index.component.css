@@ -1,0 +1,31 @@
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-logo {
+    background-image: url(src/assets/logos/vitalflow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .navbar-nav {
+    margin-left: 400px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  button {
+    margin-right: 10px;
+  }
+  
