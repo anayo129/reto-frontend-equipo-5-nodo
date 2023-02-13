@@ -1,23 +1,25 @@
 <div class="container container-curso">
     <div class="row">
       <div class="col-md-6">
-        <h3 style="color: #333; margin-top: 30px;">{{cursos.nombre}}</h3>
+        <h3 style="color: #333; margin-top: 30px;" >{{cursos.nombre}}</h3>
         <p style="color: #555; margin-bottom: 30px;">{{cursos.descripcion}}</p>
         <p>{{cursos.precio}}</p>
          <button class="btn btn-success" (click)="redirectPagos()"  style="margin-bottom: 30px; border-radius: 25px;">Comprar curso</button>
       </div>
       <div class="col-md-6">
-        <img src={{cursos.imagen}} alt="Mindfulness" style="box-shadow: 2px 2px 5px #ddd; border-radius: 10px;">
+        <img src={{cursos.imagen}} alt="Mindfulness" style="box-shadow: 2px 2px 5px #ddd; border-radius: 10px; width: 640px; height: 427px;">
       </div>
     </div>
+    
       <div class="row" >
         <div class="col-md-4 container-material" *ngFor="let item of material">
           <h4 style="color: #333; margin-top: 30px;">{{item.nombre}}</h4>
           <img class="img-material" src={{item.imagen}} alt="importancia">
           <p style="color: #555; margin-bottom: 30px;">{{item.descripcion}}</p>
           <button class="btn btn-primary" (click)="redirectMaterial(item.id)"  style="margin-bottom: 30px; border-radius: 25px;">Ingresar al material</button>
-        </div>    
-      </div>
+        </div> 
+    </div>
+      
   </div>
 
   

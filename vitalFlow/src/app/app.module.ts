@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
@@ -55,14 +55,16 @@ import { CookieService } from 'ngx-cookie-service';
     NavbarIndexComponent,
     FormularioComponent,
     ContrasenaComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CursoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    CommonModule
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

@@ -21,7 +21,7 @@ export class CursoComponent implements OnInit  {
       const value: number = parseInt( this.cookieService.get('id_curso'));
       this.getCursoService.getData(value).subscribe(data => {
         this.cursos = data;
-      });
+      });      
       this.getMaterialService.getDataByIdCurso(value).subscribe(data => {
         this.material = data;
       });
