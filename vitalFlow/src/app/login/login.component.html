@@ -5,30 +5,59 @@
 <div class="principal-login"> 
     <!-- // *ngIf="showLoginn" -->
     <div class="login">
-        <button type="submit" class="gmail-google">
-            <span id="icon-google"></span>
-            <span class="continue"> Ingresar con Google</span>
-        </button>
-        <button type="submit" class="gmail-facebook">
-            <span id="icon-facebook"></span>
-            <span class="continue"> Ingresar con Facebook</span>
-        </button>
-        <div class="line">
-      
-            <span>o</span>
-         
+        <div style="width: 300px;">
+            <button type="submit" class="gmail-google">
+                <span id="icon-google"></span>
+                <span class="continue"> Ingresar con Google</span>
+            </button>
+            <button type="submit" class="gmail-facebook">
+                <span id="icon-facebook"></span>
+                <span class="continue"> Ingresar con Facebook</span>
+            </button>
         </div>
-        <div class="form-container">        
-          <form action="/" class="form">
-            <label for="email" class="label">Dirección Email</label>
-            <input type="text" id="email" placeholder="eafit@example.cm" class="input input-email">
+        
+        <div class="line">
+            <span>o</span>
+        </div>
+        <div class="form-container">
+
+            <p *ngIf="errorMessage" class="text-danger">{{ errorMessage }}</p>
+            <form  class="form" [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+
+                <label for="email" class="label">Dirección Email</label>
+                <input [(ngModel)]="email" formControlName="email" type="text" id="email" placeholder="vitalflow@example.com" class="input input-email" >
+
+                <div *ngIf="formLogin.get('email')?.invalid && 
+                (formLogin.get('email')?.dirty || formLogin.get('email')?.touched)
+                "
+                class="required"
+                >
+                    <div *ngIf="formLogin.get('email')?.errors?.['required']" class="m-0 p-0">
+                     El email es requerido.
+                    </div>
+                </div>
     
-            <label for="password" class="label">Contraseña</label>
-            <input type="password" id="password" placeholder="*********" class="input input-password">
+                <label for="password" class="label">Contraseña</label>
+                <input  [(ngModel)]="password" formControlName="password" type="password" id="password" placeholder="*********" class="input input-password" >
+
+                <div *ngIf="formLogin.get('password')?.invalid && 
+                    (formLogin.get('password')?.dirty || formLogin.get('password')?.touched)
+                "
+                class="required"
+                >
+                    <div *ngIf="formLogin.get('password')?.errors?.['required']" class="m-0 p-0">
+                       La contraseña es requerida.
+                    </div>
+                </div>
+                <p *ngIf="loginError" class="error-mesage">Usuario o contraseña incorrecto</p>
+
     
-            <input  type="submit" value="Log in" class="primary-button login-button">
-            <a class="password-email" (click)="onLoginClickPassword()" routerLink="/mensage" >Olvide mi contraseña</a>
-          </form>
+    
+                <button (click)="login()" type="submit" class="primary-button login-button"> Ingresar </button>
+
+                <a class="password-email" (click)="onLoginClickPassword()" routerLink="/mensage" >Olvide mi contraseña</a>
+
+            </form>
           <p>¿Aún no tienes cuenta en Cincocuerpos?</p>
           <button (click)="onLoginClick()" class="secondary-button signup-button">Registrarse</button>
         </div>

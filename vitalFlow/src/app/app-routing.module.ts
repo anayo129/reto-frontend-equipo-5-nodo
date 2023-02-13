@@ -11,10 +11,13 @@ import { LoginComponent } from './login/login.component';
 import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import { AuthGuard } from './auth.guard';
+import { MaterialComponent } from './material/material.component';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CursoComponent } from './curso/curso.component';
 import { PagosComponent } from './pagos/pagos.component';
-import { MaterialComponent } from './material/material.component';
+
 
 const routes: Routes = [
 //   { path: 'index', component: IndexComponent, children: [
@@ -30,6 +33,7 @@ const routes: Routes = [
 //   // ] },
 //   { path: '', redirectTo: '/index', pathMatch: 'full' }
 // ];
+
   {
     path: 'login',
     component: LoginComponent,
@@ -52,6 +56,11 @@ const routes: Routes = [
     component: RegistroComponent
   },
   {
+    path: 'home',
+    component: HomeComponent,
+    canActivate: [AuthGuard]
+  },
+  {
     path: 'curso',
     component: CursoComponent
   },
@@ -67,14 +76,22 @@ const routes: Routes = [
     path: '',
     redirectTo: '/index',
     pathMatch: 'full',
-    
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   },
   // {
   //   path: '',
   //   redirectTo: '/registro',
   //   pathMatch: 'full',
-  // }
     
+
+  // }
+  // },
+
+    
+
 ]
 @NgModule({
   declarations: [],

@@ -26,7 +26,10 @@ import { FormularioComponent } from './login/formulario/formulario.component';
 import { ContrasenaComponent } from './login/contrasena/contrasena.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CookieService } from 'ngx-cookie-service';
+
 
 
 
@@ -35,9 +38,7 @@ import { CookieService } from 'ngx-cookie-service';
     AppComponent,
     IndexComponent,
     LoginComponent,
-    RegistroComponent,
     HomeComponent,
-    CursoComponent,
     MaterialComponent,
     PagosComponent,
     EncabezadoComponent,
@@ -53,13 +54,15 @@ import { CookieService } from 'ngx-cookie-service';
     LandingPageComponent,
     NavbarIndexComponent,
     FormularioComponent,
-    ContrasenaComponent
+    ContrasenaComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FontAwesomeModule
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

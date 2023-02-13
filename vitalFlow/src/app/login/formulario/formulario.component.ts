@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment.development';
   styleUrls: ['./formulario.component.css']
 })
 export class FormularioComponent {
-  formUsers = new FormGroup({
+    formUsers = new FormGroup({
     username: new FormControl('', [Validators.required]),
     email:  new FormControl('', [Validators.required]),
     password:  new FormControl('', [Validators.required])
@@ -30,9 +30,7 @@ export class FormularioComponent {
     console.log(data);
     this.http.post<any>(`${environment.apiUrl}/users`, data).subscribe(res=> {
       this.formUsers.reset();
-      this.router.navigate(['login']);
-    }
-      );
-    
+      this.router.navigate(['/login']);
+    });
   }
 }
