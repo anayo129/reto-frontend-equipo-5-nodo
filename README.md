@@ -2,7 +2,6 @@
 ### Integrantes
 
 - Sebástian Ricardo Ochoa Pete.
-- SantiagoLopez López.
 - David Santiago Ocampo Nieto.
 - Katherine Andrea Castaño Aguirre.
 - Juan Carlos Murillo Rodriguez.
