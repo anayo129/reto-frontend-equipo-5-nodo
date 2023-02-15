@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { faBars, faBell, faMagnifyingGlass, faBrain, faChild, faPersonWalking, faSun, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
-import { CookieService } from 'ngx-cookie-service';
+// import { CookieService } from 'ngx-cookie-service';
 import { GetCuerpoService } from '../services/get-cuerpo.service';
 import { GetCursoService } from '../services/get-curso.service';
 
@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
   curso4: any;
   curso5: any;
 
-  constructor( private router: Router, private cookieService: CookieService, private getCuerpoService: GetCuerpoService, private getCursoService:GetCursoService) {}
+  constructor( private router: Router, private getCuerpoService: GetCuerpoService, private getCursoService:GetCursoService) {}
 
 
   ngOnInit(): void {
@@ -69,9 +69,9 @@ export class HomeComponent implements OnInit {
     });
   }
 
-    redirectCurso(id: any){
-    this.cookieService.set('id_curso', id);
-    this.router.navigate(['/curso']);
+    redirectCurso(id: string){
+    // this.cookieService.set('id_curso', id);
+    this.router.navigate(['/curso', id]);
   }
 
 }

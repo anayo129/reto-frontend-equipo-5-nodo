@@ -11,6 +11,7 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class PagosComponent {
   course: Course | undefined;
+  id_curso: any;
   constructor(
     private readonly courseService: CoursesService,
     private readonly router: ActivatedRoute,
@@ -19,16 +20,16 @@ export class PagosComponent {
 
   ngOnInit(): void {
     // console.log(this.courseService.getCourses());
-    const value: number = parseInt( this.cookieService.get('id_curso'));
+    this.router.params.subscribe(params => {
+      this.id_curso = params['id'];
+    });
     this.router.queryParams.subscribe((params: Params) => {
       console.log(this.courseService.getCourse(params['courseId']));
       console.log(params);
       this.course = this.courseService.getCourse(params['courseId']);
     });
 
-    // this.courseService.getAllCourses.subscribe(data => {
-    //   this.course = data;
-    // });
+   
 
 
 

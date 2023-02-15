@@ -20,20 +20,6 @@ import { PagosComponent } from './pagos/pagos.component';
 
 
 const routes: Routes = [
-//   { path: 'index', component: IndexComponent, children: [
-//     { path: 'encabezadoi', component: EncabezadoComponent },
-//     { path: 'footer', component: FooterComponent },
-//     { path: 'promociones', component: PromicionesComponent },
-//     { path: 'quienes_somos', component: QuienesSomosComponent },
-//     { path: 'resenas', component: ResenasComponent},
-//   ] },
-//   // { path: 'componente2', component: Componente2Component, children: [
-//   //   { path: 'hijo1', component: Hijo1Component2 },
-//   //   { path: 'hijo2', component: Hijo2Component2 }
-//   // ] },
-//   { path: '', redirectTo: '/index', pathMatch: 'full' }
-// ];
-
   {
     path: 'login',
     component: LoginComponent,
@@ -61,15 +47,15 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   {
-    path: 'curso',
-    component: CursoComponent
+    path: 'curso/:id',
+    component: CursoComponent,
   },
   {
-    path: 'material',
+    path: 'material/:id',
     component: MaterialComponent
   },
   {
-    path: 'pagos',
+    path: 'pagos/:id',
     component: PagosComponent,
   },
   {
@@ -81,6 +67,7 @@ const routes: Routes = [
     path: '**',
     component: PageNotFoundComponent
   },
+ 
   // {
   //   path: '',
   //   redirectTo: '/registro',

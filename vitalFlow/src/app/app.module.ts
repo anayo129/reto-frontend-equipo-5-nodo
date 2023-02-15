@@ -36,6 +36,8 @@ import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
+    CursoComponent,
+    RegistroComponent,
     IndexComponent,
     LoginComponent,
     HomeComponent,
@@ -55,8 +57,7 @@ import { CookieService } from 'ngx-cookie-service';
     NavbarIndexComponent,
     FormularioComponent,
     ContrasenaComponent,
-    PageNotFoundComponent,
-    CursoComponent
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
