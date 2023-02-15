@@ -536,6 +536,84 @@
       "imagen": "../../assets/images/emocional/c3-13.jpg",
       "descripcion": "En esta clase, los estudiantes descubrirán cómo el movimiento puede ayudar en la sanación emocional. Se presentarán ejercicios de yoga, danza y otras formas de movimiento para liberar tensiones y emociones reprimidas. Los estudiantes aprenderán a conectarse con su cuerpo y a utilizar el movimiento como una herramienta para la sanación emocional."
     }
+  ],
+  "test":[
+    {
+      "id":1,
+      "id_cuerpo":1,
+      "nombre":"Test de tu salud mental hoy",
+      "p1":"¿Se siente triste o deprimido/a hoy?",
+      "p2":"¿Tiene dificultad para concentrarse o prestar atención?",
+      "p3":"¿Siente que se preocupa demasiado o tiene ansiedad hoy?",
+      "p4":"¿Ha experimentado cambios significativos en su apetito o en sus patrones de sueño recientemente?",
+      "p5":"¿Ha tenido pensamientos recurrentes sobre la muerte o el suicidio hoy?",
+      "p6":"¿Se siente abrumado/a por las responsabilidades o tareas cotidianas hoy?",
+      "p7":"¿Ha tenido dificultades para disfrutar de actividades que normalmente le gustan hoy?",
+      "p8":"¿Se siente irritable o enojado/a sin motivo aparente hoy?",
+      "p9":"¿Se siente aislado/a o desconectado/a de los demás hoy?",
+      "p10":"¿Ha notado cambios significativos en su estado de ánimo en general recientemente?"
+    },
+    {
+      "id":2,
+      "id_cuerpo":2,
+      "nombre":"Test de tu salud fisica hoy",
+      "p1":"¿Tiene dolor de cabeza hoy?",
+      "p2":"¿Tiene dolor de cuerpo o muscular hoy?",
+      "p3":"¿Tiene problemas gastrointestinales, como náuseas, vómitos o diarrea hoy?",
+      "p4":"¿Tiene dolor en el pecho o dificultad para respirar hoy?",
+      "p5":"¿Tiene fiebre hoy?",
+      "p6":"¿Tiene problemas de sueño, como insomnio o somnolencia excesiva hoy?",
+      "p7":"¿Tiene una tos persistente o dificultad para hablar hoy?",
+      "p8":"¿Tiene dificultad para ver o experimenta cambios en su visión hoy?",
+      "p9":"¿Tiene mareos o vértigo hoy?",
+      "p10":"¿Ha experimentado cambios significativos en su peso o apetito recientemente?"
+    },
+    {
+      "id":3,
+      "id_cuerpo":3,
+      "nombre":"Test de tu salud espiritual hoy",
+      "p1":"¿Siente que tiene un propósito o significado en su vida hoy?",
+      "p2":"¿Tiene un sistema de creencias o valores que guían su vida hoy?",
+      "p3":"¿Se siente conectado/a con algo más grande que usted mismo/a hoy?",
+      "p4":"¿Encuentra satisfacción en ayudar a otros o en actos de bondad hoy?",
+      "p5":"¿Se siente en paz o armonía hoy?",
+      "p6":"¿Experimenta gratitud o apreciación por la vida hoy?",
+      "p7":"¿Tiene una práctica espiritual o religiosa que lo/la ayuda a mantenerse centrado/a hoy?",
+      "p8":"¿Encuentra consuelo en momentos difíciles a través de su fe o creencias hoy?",
+      "p9":"¿Siente que tiene un sentido de comunidad o apoyo a través de su comunidad espiritual hoy?",
+      "p10":"¿Encuentra inspiración o motivación en su fe o creencias hoy?"
+    },
+    {
+      "id":4,
+      "id_cuerpo":4,
+      "nombre":"Test de tu salud energetica hoy",
+      "p1":"¿Tiene una sensación general de vitalidad hoy?",
+      "p2":"¿Siente que tiene suficiente energía para llevar a cabo sus actividades diarias hoy?",
+      "p3":"¿Se siente motivado/a y enfocado/a hoy?",
+      "p4":"¿Tiene la capacidad de manejar el estrés y las demandas diarias hoy?",
+      "p5":"¿Siente que tiene una conexión con su cuerpo y su entorno hoy?",
+      "p6":"¿Experimenta una sensación de equilibrio y armonía en su vida hoy?",
+      "p7":"¿Siente una sensación de claridad mental y emocional hoy?",
+      "p8":"¿Tiene un estado de ánimo positivo y optimista hoy?",
+      "p9":"¿Siente una sensación de conexión con los demás y con el mundo que lo rodea hoy?",
+      "p10":"¿Tiene la capacidad de disfrutar del presente y estar en el momento hoy?"
+    },
+    {
+      "id":5,
+      "id_cuerpo":5,
+      "nombre":"Test de tu salud emocional hoy",
+      "p1":"¿Se siente feliz o contento/a hoy?",
+      "p2":"¿Se siente triste, abatido/a o desanimado/a hoy?",
+      "p3":"¿Tiene una sensación general de bienestar emocional hoy?",
+      "p4":"¿Tiene dificultades para controlar sus emociones hoy?",
+      "p5":"¿Ha tenido pensamientos recurrentes sobre la muerte o el suicidio hoy?",
+      "p6":"¿Tiene dificultades para manejar el estrés hoy?",
+      "p7":"¿Se siente irritado/a o enojado/a con frecuencia hoy?",
+      "p8":"¿Siente que tiene apoyo emocional de otras personas hoy?",
+      "p9":"¿Tiene dificultades para establecer límites o decir no hoy?",
+      "p10":"¿Siente que tiene una perspectiva positiva y realista de la vida hoy?"
+    }   
+
   ]
   
 }

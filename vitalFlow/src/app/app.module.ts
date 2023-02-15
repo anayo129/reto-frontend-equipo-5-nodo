@@ -29,6 +29,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CookieService } from 'ngx-cookie-service';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -57,7 +58,8 @@ import { CookieService } from 'ngx-cookie-service';
     NavbarIndexComponent,
     FormularioComponent,
     ContrasenaComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

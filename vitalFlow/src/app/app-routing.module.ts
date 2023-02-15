@@ -17,6 +17,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RegistroComponent } from './registro/registro.component';
 import { CursoComponent } from './curso/curso.component';
 import { PagosComponent } from './pagos/pagos.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -45,6 +46,10 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent,
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'test/:id',
+    component: TestComponent,
   },
   {
     path: 'curso/:id',

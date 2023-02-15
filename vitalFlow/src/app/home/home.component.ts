@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
   curso3: any;
   curso4: any;
   curso5: any;
+  
 
   constructor( private router: Router, private getCuerpoService: GetCuerpoService, private getCursoService:GetCursoService) {}
 
@@ -73,5 +74,23 @@ export class HomeComponent implements OnInit {
     // this.cookieService.set('id_curso', id);
     this.router.navigate(['/curso', id]);
   }
+
+  redirectTest1(){
+    this.router.navigate(['/test', 1]);
+  }
+
+  redirectTest2(){
+    this.router.navigate(['/test', 2]);
+  }
+  redirectTest3(){
+    this.router.navigate(['/test', 3]);
+  }
+  redirectTest4(){
+    this.router.navigate(['/test', 4]);
+  }
+  redirectTest5(){
+    this.router.navigate(['/test', 5]);
+  }
+
 
 }
