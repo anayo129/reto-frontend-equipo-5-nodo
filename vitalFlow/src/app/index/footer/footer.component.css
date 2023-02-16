@@ -4,4 +4,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+  .form-group {
+    margin-bottom: 5px;
+  }
