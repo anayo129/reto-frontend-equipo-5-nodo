@@ -53,12 +53,9 @@ export class PagosComponent {
         this.formPagos.controls['precioCurso'].setValue(this.course.precio);
       });
 
-      // console.log(this.courseService.getCourses());
     });
 
-    // this.courseService.getAllCourses.subscribe(data => {
-    //   this.course = data;
-    // });
+   
   }
 
   abrirCheckOut() {
@@ -71,7 +68,6 @@ export class PagosComponent {
       // redirectUrl: 'https://transaction-redirect.wompi.co/check', // Opcional
 
       customerData: {
-        // Opcional
         email: this.formPagos.controls['correoUsuario'].value,
         fullName: this.formPagos.controls['nombreUsuario'].value,
         phoneNumber: '3040777777',
@@ -83,17 +79,14 @@ export class PagosComponent {
       console.log(result);
       console.log('Transaction ID: ', transaction.id);
       console.log('Transaction object: ', transaction);
-      this.router.navigate(['/material'])
+      this.router.navigate(['/material/1'])
     });
   }
 
   generarReferencia(longitud:number){
-    // Nota: no uses esta función para cosas criptográficamente seguras. 
     const banco = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let aleatoria = "";
     for (let i = 0; i < longitud; i++) {
-        // Lee más sobre la elección del índice aleatorio en:
-        // https://parzibyte.me/blog/2021/11/30/elemento-aleatorio-arreglo-javascript/
         aleatoria += banco.charAt(Math.floor(Math.random() * banco.length));
     }
     return aleatoria;

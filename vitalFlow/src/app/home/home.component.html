@@ -1,10 +1,15 @@
-
 <ng-container *ngIf=" isUserLoggedIn">
     <header class="header">
         <nav class="header-nav">
-         <div>
-            <img src="/assets/logos/vitalflow.png" alt="logo-vital-flow" class="nav-logo">    
+         <div class="nav-items">
+            <img src="/assets/logos/vitalflow.png" alt="logo-vital-flow" class="nav-logo">   
+            <button class="header-nav--anchor" ><a class="text-decoration-none log-out" href="#mental-section">Mental</a></button>
+            <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="fisico-section">Fisico</a></button>
+            <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="energetico-section">Energetico</a></button>
+            <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="espiritual-section">Espiritual</a></button>
+            <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="emocional-section">Emocional</a></button>
         </div>
+       
         <div class="nav-items">
             <div>
                  <fa-icon class="me-2 bell" [icon]="faBell"></fa-icon> 
@@ -17,15 +22,16 @@
         </div>
      </nav>
 </header>
-<div >
+<div>
     <section class="section-one">
         <img  class="section--component" src="/assets/logos/vitalflowlogo.png" alt="">
     </section>
 
-    <section class="section-two">
+    <section  id="mental-section" class="section-two">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-              <h3 class="section-title--h3">  <fa-icon  class="seaarch-container--lup"  [icon]="faBrain"></fa-icon> Mental</h3>
+              <h3 class="section-title--h3">  <fa-icon  class="seaarch-container--lup"  [icon]="faBrain"></fa-icon> Mental <button class="btn btn-success" (click)="redirectTest1()"  style=" border-radius: 25px; margin-left: 30px; font-size: x-large;">Test diario</button></h3>
+              
             </div>
               <div class="row section-container--target" >
                 <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso1">
@@ -42,10 +48,10 @@
           </div>
     </section>
 
-    <section class="section-tree">
+    <section id="fisico-section" class="section-tree">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2 mb-5"  [icon]="faChild"></fa-icon>Fisico</h3>
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2 mb-5"  [icon]="faChild"></fa-icon>Fisico<button class="btn btn-success" (click)="redirectTest2()"  style=" border-radius: 25px; margin-left: 30px; font-size: x-large;">Test diario</button></h3>
             </div>
               <div class="row section-container--target" >
                 <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso2">
@@ -62,10 +68,10 @@
           </div>
     </section>
 
-    <section class="section-two">
+    <section id="energetico-section" class="section-two">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faPersonWalking"></fa-icon>Energetico</h3>
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faPersonWalking"></fa-icon>Energetico<button class="btn btn-success" (click)="redirectTest4()"  style=" border-radius: 25px; margin-left: 30px; font-size: x-large;">Test diario</button></h3>
             </div>
               <div class="row section-container--target" >
                 <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso3">
@@ -82,10 +88,10 @@
           </div>
     </section>
 
-    <section class="section-tree">
+    <section id="espiritual-section" class="section-tree" id="espiritual">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-              <h3 style="color: #333; margin-top: 30px;"><fa-icon  class="seaarch-container--lup me-2"  [icon]="faSun"></fa-icon>Espiritual</h3>
+              <h3 style="color: #333; margin-top: 30px;"><fa-icon  class="seaarch-container--lup me-2"  [icon]="faSun"></fa-icon>Espiritual<button class="btn btn-success" (click)="redirectTest3()"  style=" border-radius: 25px; margin-left: 30px; font-size: x-large;">Test diario</button></h3>
             </div>
               <div class="row section-container--target" >
                 <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso4">
@@ -102,10 +108,10 @@
           </div>
     </section >
 
-    <section class="section-two">
+    <section  id="emocional-section" class="section-two">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
-              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faFaceSmile"></fa-icon>Emocional</h3>
+              <h3 style="color: #333; margin-top: 30px;"> <fa-icon  class="seaarch-container--lup me-2"  [icon]="faFaceSmile"></fa-icon>Emocional<button class="btn btn-success" (click)="redirectTest5()"  style=" border-radius: 25px; margin-left: 30px; font-size: x-large;">Test diario</button></h3>
             </div>
               <div class="row section-container--target" >
                 <div class="col-md-4 container-material section-conteiner" *ngFor="let i of curso5">

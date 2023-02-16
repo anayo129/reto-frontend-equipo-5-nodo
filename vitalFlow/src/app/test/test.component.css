@@ -1,0 +1,17 @@
+.card-title {
+    text-align: center;
+    padding: 10px 10px;
+    border: 4px double rgb(59, 59, 59);
+    border-radius: 10px;
+  }
+  
+  .card {
+    background: rgb(224,224,224);
+    background: linear-gradient(0deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 100%);
+    background-repeat: repeat-y;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-size: contain;
+  }
+  

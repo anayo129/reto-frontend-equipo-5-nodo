@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
 import { GetCursoService } from '../services/get-curso.service';
 import { GetMaterialService } from '../services/get-material.service';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-curso',
@@ -12,6 +13,7 @@ import { Router } from '@angular/router';
 export class CursoComponent implements OnInit {
   cursos: any;
   material: any;
+  id: any;
 
   constructor(
     private router: Router,

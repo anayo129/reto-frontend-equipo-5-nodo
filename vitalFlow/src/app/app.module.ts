@@ -14,11 +14,6 @@ import { QuienesSomosComponent } from './index/quienes-somos/quienes-somos.compo
 import { PromicionesComponent } from './index/promiciones/promiciones.component';
 import { ResenasComponent } from './index/resenas/resenas.component';
 import { FooterComponent } from './index/footer/footer.component';
-import { MentalComponent } from './home/mental/mental.component';
-import { FisicoComponent } from './home/fisico/fisico.component';
-import { EmocionalComponent } from './home/emocional/emocional.component';
-import { EnergeticoComponent } from './home/energetico/energetico.component';
-import { EspiritualComponent } from './home/espiritual/espiritual.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './index/landing-page/landing-page.component';
 import { NavbarIndexComponent } from './index/navbar-index/navbar-index.component';
@@ -29,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CookieService } from 'ngx-cookie-service';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -36,6 +32,8 @@ import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
+    CursoComponent,
+    RegistroComponent,
     IndexComponent,
     LoginComponent,
     HomeComponent,
@@ -46,17 +44,12 @@ import { CookieService } from 'ngx-cookie-service';
     PromicionesComponent,
     ResenasComponent,
     FooterComponent,
-    MentalComponent,
-    FisicoComponent,
-    EmocionalComponent,
-    EnergeticoComponent,
-    EspiritualComponent,
     LandingPageComponent,
     NavbarIndexComponent,
     FormularioComponent,
     ContrasenaComponent,
     PageNotFoundComponent,
-    CursoComponent
+    TestComponent
   ],
   imports: [
     BrowserModule,
