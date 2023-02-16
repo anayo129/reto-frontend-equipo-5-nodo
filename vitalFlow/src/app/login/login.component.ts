@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms'
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.development';
 
-const EMAIL = 'usuario@eafit.edu.co';
+const EMAIL = 'srochoap@eafit.edu.co';
 const PASSWORD = '123456';
 @Component({
   selector: 'app-login',
