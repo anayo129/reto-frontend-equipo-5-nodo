@@ -19,11 +19,4 @@ export class CoursesService {
     return this.http.get('http://localhost:3000/cursos');
   }
 
-  getCourses() {
-    return this.courses;
-  }
-
-  getCourse(id:string) {
-    return this.courses.find((course) => course.id === id);
-  }
 }

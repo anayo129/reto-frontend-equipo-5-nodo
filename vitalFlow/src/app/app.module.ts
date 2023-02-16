@@ -57,7 +57,7 @@ import { TestComponent } from './test/test.component';
     HttpClientModule,
     ReactiveFormsModule,
     FontAwesomeModule,
-    CommonModule
+    CommonModule,
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

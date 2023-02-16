@@ -60,7 +60,7 @@ const routes: Routes = [
     component: MaterialComponent
   },
   {
-    path: 'pagos/:id',
+    path: 'pagos',
     component: PagosComponent,
   },
   {

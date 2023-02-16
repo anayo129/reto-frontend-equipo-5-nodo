@@ -63,7 +63,7 @@
       "id":1,
       "id_cuerpo": 1,
       "nombre": "Mindfulness para la salud",
-      "precio": "1000",
+      "precio": "1000000",
       "imagen": "../../assets/images/mental/c1-1.jpg",
       "descripcion": "Este curso ofrece una introducción práctica al mindfulness y su aplicación en el mejoramiento de la salud física y mental. Los estudiantes aprenderán a desarrollar habilidades de concentración y atención plena y a integrar la práctica de mindfulness en su vida diaria."
     },
@@ -71,7 +71,7 @@
       "id":2,
       "id_cuerpo": 1,
       "nombre": "Terapia cognitivo-conductual",
-      "precio": "1100",
+      "precio": "1000000",
       "imagen": "../../assets/images/mental/c2-1.jpg",
       "descripcion": "Este curso proporciona una comprensión completa de la hipnoterapia y su aplicación en el tratamiento de problemas psicológicos y físicos. Los estudiantes aprenderán técnicas esenciales de inducción y profundización en hipnoterapia y cómo utilizar la hipnoterapia en el tratamiento de trastornos específicos."
     },
@@ -79,7 +79,7 @@
       "id":3,
       "id_cuerpo": 1,
       "nombre": "Hipnoterapia clínica",
-      "precio": "1200",
+      "precio": "1000000",
       "imagen": "../../assets/images/mental/c3-1.jpg",
       "descripcion": "Este curso enseña a los estudiantes cómo utilizar la meditación como una herramienta efectiva para reducir el estrés y mejorar la calidad de vida. Se abordarán diferentes tipos de meditación y se proporcionarán prácticas guiadas para ayudar a los estudiantes a integrar la meditación en su rutina diaria."
     },
@@ -87,7 +87,7 @@
       "id":4,
       "id_cuerpo": 2,
       "nombre": "Yoga para la Salud",
-      "precio": "1200",
+      "precio": "1000000",
       "imagen": "../../assets/images/fisico/c1-1.jpg",
       "descripcion": "Este curso enseña las posturas, respiración y meditación del yoga para mejorar la salud física y emocional. Aprenderás a equilibrar el cuerpo y la mente para una vida más saludable"
     },
@@ -95,7 +95,7 @@
       "id":5,
       "id_cuerpo": 2,
       "nombre": "Entrenamiento Funcional",
-      "precio": "1100",
+      "precio": "1000000",
       "imagen": "../../assets/images/fisico/c2-1.jpg",
       "descripcion": "Este curso te enseñará cómo entrenar con movimientos funcionales para mejorar la movilidad, la fuerza y la postura. Aprenderás a trabajar los músculos de manera efectiva y segura."
     },
@@ -103,7 +103,7 @@
       "id":6,
       "id_cuerpo": 2,
       "nombre": "Acupuntura",
-      "precio": "1000",
+      "precio": "1000000",
       "imagen": "../../assets/images/fisico/c3-1.jpg",
       "descripcion": "Este curso te enseñará cómo utilizar los puntos de acupuntura para equilibrar la energía y mejorar la salud. Aprenderás a utilizar las agujas de acupuntura para tratar afecciones físicas y emocionales."
     },
@@ -111,21 +111,21 @@
       "id":7,
       "id_cuerpo": 3,
       "nombre": "Curso de Reiki",
-      "precio": "1100",
+      "precio": "1000000",
       "imagen": "../../assets/images/energetico/c1-1.jpg",
       "descripcion": "Este curso introduce a los estudiantes en el mundo de la energía y cómo utilizarla para mejorar su salud y bienestar. Aprenderán técnicas de canalización y sanación para ayudar a equilibrar el cuerpo y la mente."
     },{
       "id":8,
       "id_cuerpo": 3,
       "nombre": "Curso de Aromaterapia",
-      "precio": "1000",
+      "precio": "1000000",
       "imagen": "../../assets/images/energetico/c2-1.jpg",
       "descripcion": "Este curso introduce a los estudiantes en el mundo de los aceites esenciales y cómo pueden ser utilizados para equilibrar la energía y mejorar la salud. Aprenderán sobre las propiedades terapéuticas de los aceites y cómo crear mezclas personalizadas."
     },{
       "id":9,
       "id_cuerpo": 3,
       "nombre": "Curso de Quiropraxia",
-      "precio": "1100",
+      "precio": "1000000",
       "imagen": "../../assets/images/energetico/c3-1.jpg",
       "descripcion": "Este curso enseña a los estudiantes cómo detectar y corregir las desalineaciones vertebrales para mejorar la salud y el bienestar. Aprenderán técnicas de ajuste manual y cómo utilizarlas en combinación con ejercicios para lograr una columna vertebral saludable."
     },{
