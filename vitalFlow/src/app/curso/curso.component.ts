@@ -38,8 +38,8 @@ export class CursoComponent implements OnInit {
   }
 
   redirectMaterial(id: any) {
-    this.cookieService.set('id_material', id);
-    this.router.navigate(['/material']);
+    // this.cookieService.set('id_material', id);
+    this.router.navigate(['/material', id]);
   }
 
   redirectPagos() {

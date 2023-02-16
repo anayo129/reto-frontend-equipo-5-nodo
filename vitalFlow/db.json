@@ -132,6 +132,7 @@
       "id":10,
       "id_cuerpo": 4,
       "nombre": "Desarrollo espiritual",
+      "precio": "1000000",
       "imagen": "../../assets/images/espiritual/c1-1.jpg",
       "descripcion": "Este curso enseña a los estudiantes sobre cómo desarrollar su conexión con un poder superior y mejorar su bienestar emocional y espiritual."
     },{
