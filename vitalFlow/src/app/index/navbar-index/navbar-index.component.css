@@ -2,17 +2,67 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  
-  .nav-logo {
-    background-image: url(src/assets/logos/vitalflow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 50px;
+ header{
+  background-color: #cce4e4;
+    
+}
+.header-nav {
+    position: fixed;
+    background-color: #cce4e4;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-  }
+    width: 100%;
+    height: 55px;
+    border: 1px solid var(--text-input-field);
+    padding: 0;
+    z-index: 1;
+    
+}
+.nav-link {
+  border: none;
+  width: 102px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  height: 45px;
+  margin-left: 1rem;
+  margin-right: 20px;
+}
+.header-nav--anchor {
+  border: none;
+  width: 165px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.log-out {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--principal-green);
+}
+.button-login {
+  border: none;
+  width: 160px;
+  height: 35px;
+  background-color: var(--principal-green);
+  border-radius: 12px;
+  font-weight: bold;
+
+}
+.button-login--anchor{
+  color: white;
+  text-decoration: none;
+}
   
   .navbar-nav {
     margin-left: 400px;

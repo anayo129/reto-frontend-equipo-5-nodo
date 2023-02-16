@@ -25,11 +25,5 @@ html {
     
 }
   body {
-    margin: 0;
-    
-}
-
-.anchor {
-    text-decoration: none;
-    color: var(--white);
+    margin: 0; 
 }

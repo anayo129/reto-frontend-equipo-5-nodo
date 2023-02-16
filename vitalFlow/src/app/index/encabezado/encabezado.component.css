@@ -7,3 +7,16 @@
   background-image: url('src/assets/images/fondos/09.png');
   background-size: cover;
 }
+.carousel-image {
+  height: 550px;
+  width: 810px;
+  border-radius: 30px;
+  object-fit: cover;
+ 
+}
+.corusel-image--description h1 {
+  text-align: center;
+}
+.corusel-image--description p{
+  text-align: justify;
+}

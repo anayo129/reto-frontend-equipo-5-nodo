@@ -1,34 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between" *ngIf="showHeader">
-  <div class="nav-logo">
-  <a class="navbar-brand" href="#"></a>
-</div>
-  <div class="d-flex align-items-center">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#encabezadoi">Encabezado</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#quienes_somos">Quienes somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#promociones">Promociones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#resenas">Reseñas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#footer">Footer</a>
-        </li>
-      </ul>
+<nav class="header-nav" *ngIf="showHeader">
+    <div class="nav-items">
+      <img src="/assets/logos/vitalflowlogo.png" alt="logo-vital-flow" class="nav-logo">         
+      <button class="header-nav--anchor" ><a class="text-decoration-none log-out" href="#encabezado1">Encabezado</a></button>
+      <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="#quienes_somos">¿Quienes somos?</a></button>
+      <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="#promociones">Promociones</a></button>
+      <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="#resenas">Reseñas</a></button>
+      <button class="header-nav--anchor"><a class="text-decoration-none log-out" href="#footer">Footer</a></button>
     </div>
-  </div>
-  <button (click)="onLoginClick()" class="btn btn-success" routerLink="/login">
-    <a class="anchor" routerLink="/login"> Inicio de sesión</a>
-  </button>
+    
+
+
+    <button (click)="onLoginClick()" class="button-login" routerLink="/login">
+      <a class="button-login--anchor" routerLink="/login"> Inicio de sesión</a>
+    </button>
 </nav>
 <app-landing-page *ngIf="showIndex"/>
 <app-login *ngIf="showLogin"></app-login>

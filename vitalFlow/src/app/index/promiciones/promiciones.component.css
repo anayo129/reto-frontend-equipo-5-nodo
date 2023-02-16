@@ -3,6 +3,45 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   height: 100vh;
   background-size: cover;
+}
+.section-title--h2 {
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 2.1875rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-description {
+  width: 90%;
+  height: 250px;
+  text-align: justify;
+  margin: auto;
+}
+.card-container {
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 10px;
+}
+.card-image {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 5px 5px 5px;
+  margin-bottom: 10px;
+}
+.button-price {
+  border: none;
+  width: 160px;
+  height: 35px;
+  background-color: var(--principal-green);
+  border-radius: 12px;
+  font-weight: bold;
+}
+.price-anchor {
+  color: white;
+  text-decoration: none;
 }
