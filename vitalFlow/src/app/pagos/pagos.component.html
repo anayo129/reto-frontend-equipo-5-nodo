@@ -1,3 +1,47 @@
-<p>pagos works!</p>
+<div class="form-container">
+  <form class="form" [formGroup]="formPagos" (ngSubmit)="abrirCheckOut()">
+    <div>
+      <label for="nombreUsuario" class="label">Nombre</label>
+      <input
+        type="text"
+        id="nombreUsuario"
+        formControlName="nombreUsuario"
+        readonly
+      />
+    </div>
+    <div>
+      <label for="apellidoUsuario" class="label">Apellidos</label>
+      <input
+        type="text"
+        id="apellidoUsuario"
+        formControlName="apellidoUsuario"
+        readonly
+      />
+    </div>
+    <div>
+      <label for="correoUsuario" class="label">Correo</label>
+      <input
+        type="text"
+        id="correoUsuario"
+        formControlName="correoUsuario"
+        readonly
+      />
+    </div>
+    <div>
+      <label for="nombreCurso" class="label">Descripción del Pedido</label>
+      <input type="text" id="nombreCurso" formControlName="nombreCurso" />
+    </div>
+    <div>
+      <label for="precioCurso" class="label">Descripción del Pedido</label>
+      <input
+        type="text"
+        id="precioCurso"
+        formControlName="precioCurso"
+        
+      />
+    </div>
+    <button [disabled]="!formPagos.valid">Pagar</button>
+  </form>
+</div>
 
-<!-- <p *ngIf="course">{{course.name}}</p> -->
+
