@@ -1,0 +1,197 @@
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title mb-4">{{test.nombre}}</h3>
+            <form (ngSubmit)="submitForm()" [formGroup]="testForm">             
+              <div class="form-group">
+                <h6  for="pregunta1">{{test.p1}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="si" formControlName="pregunta1">
+                    <label class="form-check-label" for="pregunta1_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="no" formControlName="pregunta1">
+                    <label class="form-check-label mb-3" for="pregunta1_no">
+                      No
+                    </label>
+                  </div>
+                  <div *ngIf="testForm.controls['pregunta1'].invalid && (testForm.controls['pregunta1'].dirty || testForm.controls['pregunta1'].touched)" class="alert alert-danger mt-1">
+                    <div *ngIf="testForm.controls['pregunta1'].errors.required">Este campo es obligatorio</div>
+                  </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta2">{{test.p2}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="pregunta2_si" value="si" formControlName="pregunta2">
+                    <label class="form-check-label" for="pregunta2_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta2" id="pregunta2_no" value="no" formControlName="pregunta2">
+                    <label class="form-check-label mb-3" for="pregunta2_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta2'].invalid && (testForm.controls['pregunta2'].dirty || testForm.controls['pregunta2'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta2'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta3">{{test.p3}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="pregunta3_si" value="si" formControlName="pregunta3">
+                    <label class="form-check-label" for="pregunta3_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta3" id="pregunta3_no" value="no" formControlName="pregunta3">
+                    <label class="form-check-label mb-3" for="pregunta3_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta3'].invalid && (testForm.controls['pregunta3'].dirty || testForm.controls['pregunta3'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta3'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta4">{{test.p4}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="pregunta4_si" value="si" formControlName="pregunta4">
+                    <label class="form-check-label" for="pregunta4_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta4" id="pregunta4_no" value="no" formControlName="pregunta4">
+                    <label class="form-check-label mb-3" for="pregunta4_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta4'].invalid && (testForm.controls['pregunta4'].dirty || testForm.controls['pregunta4'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta4'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta5">{{test.p5}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="pregunta5_si" value="si" formControlName="pregunta5">
+                    <label class="form-check-label" for="pregunta5_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta5" id="pregunta5_no" value="no" formControlName="pregunta5">
+                    <label class="form-check-label mb-3" for="pregunta5_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta5'].invalid && (testForm.controls['pregunta5'].dirty || testForm.controls['pregunta5'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta5'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta6">{{test.p6}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="pregunta6_si" value="si" formControlName="pregunta6">
+                    <label class="form-check-label" for="pregunta6_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta6" id="pregunta6_no" value="no" formControlName="pregunta6">
+                    <label class="form-check-label mb-3" for="pregunta6_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta6'].invalid && (testForm.controls['pregunta6'].dirty || testForm.controls['pregunta6'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta6'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta7">{{test.p7}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="pregunta7_si" value="si" formControlName="pregunta7">
+                    <label class="form-check-label" for="pregunta7_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta7" id="pregunta7_no" value="no" formControlName="pregunta7">
+                    <label class="form-check-label mb-3" for="pregunta7_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta7'].invalid && (testForm.controls['pregunta7'].dirty || testForm.controls['pregunta7'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta7'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta8">{{test.p8}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="pregunta8_si" value="si" formControlName="pregunta8">
+                    <label class="form-check-label" for="pregunta8_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta8" id="pregunta8_no" value="no" formControlName="pregunta8">
+                    <label class="form-check-label mb-3" for="pregunta8_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta8'].invalid && (testForm.controls['pregunta8'].dirty || testForm.controls['pregunta8'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta8'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta9">{{test.p9}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="pregunta9_si" value="si" formControlName="pregunta9">
+                    <label class="form-check-label" for="pregunta9_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta9" id="pregunta9_no" value="no" formControlName="pregunta9">
+                    <label class="form-check-label mb-3" for="pregunta9_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta9'].invalid && (testForm.controls['pregunta9'].dirty || testForm.controls['pregunta9'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta9'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <h6  for="pregunta10">{{test.p10}}</h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="pregunta10_si" value="si" formControlName="pregunta10">
+                    <label class="form-check-label" for="pregunta10_si">
+                      Sí
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pregunta10" id="pregunta10_no" value="no" formControlName="pregunta10">
+                    <label class="form-check-label mb-3" for="pregunta10_no">
+                      No
+                    </label>
+                  </div>
+                <div *ngIf="testForm.controls['pregunta10'].invalid && (testForm.controls['pregunta10'].dirty || testForm.controls['pregunta10'].touched)" class="alert alert-danger mt-1">
+                  <div *ngIf="testForm.controls['pregunta10'].errors.required">Este campo es obligatorio</div>
+                </div>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary px-5 py-2" [disabled]="testForm.invalid">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

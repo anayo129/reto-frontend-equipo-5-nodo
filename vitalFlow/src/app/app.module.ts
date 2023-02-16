@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
@@ -24,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CookieService } from 'ngx-cookie-service';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -31,6 +32,8 @@ import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
+    CursoComponent,
+    RegistroComponent,
     IndexComponent,
     LoginComponent,
     HomeComponent,
@@ -45,14 +48,16 @@ import { CookieService } from 'ngx-cookie-service';
     NavbarIndexComponent,
     FormularioComponent,
     ContrasenaComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    CommonModule
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

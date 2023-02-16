@@ -17,23 +17,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RegistroComponent } from './registro/registro.component';
 import { CursoComponent } from './curso/curso.component';
 import { PagosComponent } from './pagos/pagos.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
-//   { path: 'index', component: IndexComponent, children: [
-//     { path: 'encabezadoi', component: EncabezadoComponent },
-//     { path: 'footer', component: FooterComponent },
-//     { path: 'promociones', component: PromicionesComponent },
-//     { path: 'quienes_somos', component: QuienesSomosComponent },
-//     { path: 'resenas', component: ResenasComponent},
-//   ] },
-//   // { path: 'componente2', component: Componente2Component, children: [
-//   //   { path: 'hijo1', component: Hijo1Component2 },
-//   //   { path: 'hijo2', component: Hijo2Component2 }
-//   // ] },
-//   { path: '', redirectTo: '/index', pathMatch: 'full' }
-// ];
-
   {
     path: 'login',
     component: LoginComponent,
@@ -61,15 +48,19 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   {
-    path: 'curso',
-    component: CursoComponent
+    path: 'test/:id',
+    component: TestComponent,
   },
   {
-    path: 'material',
+    path: 'curso/:id',
+    component: CursoComponent,
+  },
+  {
+    path: 'material/:id',
     component: MaterialComponent
   },
   {
-    path: 'pagos',
+    path: 'pagos/:id',
     component: PagosComponent,
   },
   {
@@ -81,9 +72,10 @@ const routes: Routes = [
     path: '**',
     component: PageNotFoundComponent
   },
+ 
   // {
   //   path: '',
-  //   redirectTo: '/index',
+  //   redirectTo: '/registro',
   //   pathMatch: 'full',
     
 
