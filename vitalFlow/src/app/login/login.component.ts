@@ -48,6 +48,7 @@ export class LoginComponent {
     email:  new FormControl('', [Validators.required]),
     password:  new FormControl('', [Validators.required])
   });
+  
   onSubmit(){
 
     if(!this.formLogin.valid){

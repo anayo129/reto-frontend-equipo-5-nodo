@@ -20,8 +20,8 @@
             <span>o</span>
         </div>
         <div class="form-container">
-
             <p *ngIf="errorMessage" class="text-danger">{{ errorMessage }}</p>
+            
             <form  class="form" [formGroup]="formLogin" (ngSubmit)="onSubmit()">
 
                 <label for="email" class="label">Dirección Email</label>
@@ -49,6 +49,7 @@
                        La contraseña es requerida.
                     </div>
                 </div>
+
                 <p *ngIf="loginError" class="error-mesage">Usuario o contraseña incorrecto</p>
 
     

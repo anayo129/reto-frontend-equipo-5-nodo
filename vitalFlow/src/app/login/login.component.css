@@ -87,9 +87,7 @@
   font-size: var(--md);
   height: 50px;
 }
-.continue {
-  margin-right: 20px;
-}
+
 #icon-google {
   display: inline-block;
   width: 30px;
@@ -200,8 +198,7 @@
   border-radius: 5px;
   padding-left: 10px;
   background-color: #f8d7da;
-  color: #842029
-  ;
+  color: #842029;
 }
 .error-mesage {
   color: red;
