@@ -4,7 +4,7 @@ import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms'
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.development';
 
-const EMAIL = 'usuario@eafit.edu.co';
+const EMAIL = 'srochoap@eafit.edu.co';
 const PASSWORD = '123456';
 @Component({
   selector: 'app-login',
@@ -24,7 +24,7 @@ export class LoginComponent {
   password: string = '';
   loginError: boolean = false;
 
-  constructor(private router: Router, private formBuilder : FormBuilder, private http : HttpClient) {}
+  constructor(private router: Router) {}
 
   showLoginn: boolean = true; 
   showForm: boolean = false;

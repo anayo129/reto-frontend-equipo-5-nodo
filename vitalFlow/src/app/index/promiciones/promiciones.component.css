@@ -1,6 +1,5 @@
 .quienes_somos {
   background-image: url('src/assets/images/fondos/07.png');
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -44,4 +43,14 @@
 .price-anchor {
   color: white;
   text-decoration: none;
+}
+@media(max-width: 1200px){
+  .quienes_somos {
+    height: 1800px;
+  }
+}
+@media(max-width: 770px){
+  .quienes_somos {
+    height: 2000px;
+  }
 }
