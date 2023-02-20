@@ -1,4 +1,6 @@
-<div class="form-container">
+<h2>Check Out</h2>
+<body>
+<div class="container">
   <form class="form" [formGroup]="formPagos" (ngSubmit)="abrirCheckOut()">
     <div>
       <label for="nombreUsuario" class="label">Nombre</label>
@@ -29,19 +31,20 @@
     </div>
     <div>
       <label for="nombreCurso" class="label">Descripción del Pedido</label>
-      <input type="text" id="nombreCurso" formControlName="nombreCurso" />
+      <input type="text" id="nombreCurso" formControlName="nombreCurso"readonly />
     </div>
     <div>
-      <label for="precioCurso" class="label">Descripción del Pedido</label>
+      <label for="precioCurso" class="label">Total a Pagar</label>
       <input
         type="text"
         id="precioCurso"
         formControlName="precioCurso"
-        
+        readonly
       />
     </div>
-    <button [disabled]="!formPagos.valid">Pagar</button>
+    <button class="bottom" [disabled]="!formPagos.valid">Pagar</button>
   </form>
 </div>
+</body>
 
 

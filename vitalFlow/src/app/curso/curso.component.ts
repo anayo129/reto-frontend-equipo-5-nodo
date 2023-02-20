@@ -19,23 +19,27 @@ export class CursoComponent implements OnInit {
     private router: Router,
     private cookieService: CookieService,
     private getCursoService: GetCursoService,
-    private getMaterialService: GetMaterialService
+    private getMaterialService: GetMaterialService,
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit() {
+    this.route.params.subscribe(params => {
+      this.id = params['id'];
+    });
     // const value: string = this.cookieService.get('id_curso');
-    const value: number = parseInt(this.cookieService.get('id_curso'));
-    this.getCursoService.getData(value).subscribe((data) => {
+    // const value: number = parseInt(this.cookieService.get('id_curso'));
+    this.getCursoService.getData(this.id).subscribe((data) => {
       this.cursos = data;
     });
-    this.getMaterialService.getDataByIdCurso(value).subscribe((data) => {
+    this.getMaterialService.getDataByIdCurso(parseInt(this.id)).subscribe((data) => {
       this.material = data;
     });
   }
 
   redirectMaterial(id: any) {
-    this.cookieService.set('id_material', id);
-    this.router.navigate(['/material']);
+    // this.cookieService.set('id_material', id);
+    this.router.navigate(['/material', id]);
   }
 
   redirectPagos() {
